@@ -1,0 +1,33 @@
+languages:
+  latin:
+    status: imperial_administrative
+    voice_review: required
+    regions: [Italia, Hispania, Gallia_Narbonensis, Africa_Proconsularis]
+  koine_greek:
+    status: eastern_commercial_and_civic
+    voice_review: required
+    regions: [Graecia, Asia_Minor, Syria, Aegyptus]
+  western_aramaic:
+    status: regional_and_commercial
+    voice_review: required
+    regions: [Syria]
+  egyptian:
+    status: rural_and_local
+    voice_review: specialist_required
+    regions: [Aegyptus]
+  punic:
+    status: regional_and_commercial
+    voice_review: specialist_required
+    regions: [Africa_Proconsularis]
+  thracian:
+    status: heritage_and_regional
+    voice_review: specialist_required
+    regions: [Thrace]
+  celtic:
+    status: regional
+    voice_review: specialist_required
+    regions: [Gallia_Narbonensis]
+  iberian:
+    status: regional
+    voice_review: specialist_required
+    regions: [Hispania]

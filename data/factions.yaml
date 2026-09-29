@@ -1,0 +1,31 @@
+factions:
+  - id: FACTION-001
+    name: Varro Network
+    initial_state: active
+    states: [dormant, watchful, active, aggressive, collapsing]
+    resources: [ledgers, contracts, ships, legal_protection]
+  - id: FACTION-002
+    name: Imperial Administration
+    initial_state: watchful
+    states: [dormant, watchful, active, aggressive, collapsing]
+    resources: [courts, patrols, records, taxation]
+  - id: FACTION-003
+    name: Free Communities
+    initial_state: active
+    states: [dormant, watchful, active, aggressive, collapsing]
+    resources: [safe_houses, local_knowledge, workshops]
+  - id: FACTION-004
+    name: Resistance Network
+    initial_state: dormant
+    states: [dormant, watchful, active, aggressive, collapsing]
+    resources: [couriers, evidence, rescued_people, workshops]
+  - id: FACTION-005
+    name: Military Establishment
+    initial_state: watchful
+    states: [dormant, watchful, active, aggressive, collapsing]
+    resources: [troops, roads, coercion, payrolls]
+  - id: FACTION-006
+    name: Rival Merchants
+    initial_state: active
+    states: [dormant, watchful, active, aggressive, collapsing]
+    resources: [ships, credit, market_access, political_contacts]

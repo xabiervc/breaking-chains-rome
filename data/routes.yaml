@@ -1,0 +1,71 @@
+routes:
+  - id: ROUTE-001
+    from: LOC-ITA-003
+    to: LOC-ITA-002
+    mode: road
+    route_units: 4
+    terrain_factor: 1.0
+    season_factor: 1.0
+    transport_factor: 0.9
+    weather_factor: 1.0
+    unlock: ACT-ROME-008
+  - id: ROUTE-002
+    from: LOC-ITA-003
+    to: LOC-ITA-004
+    mode: river
+    route_units: 3
+    terrain_factor: 1.0
+    season_factor: 1.1
+    transport_factor: 0.8
+    weather_factor: 1.0
+    unlock: ACT-ROME-009
+  - id: ROUTE-003
+    from: LOC-ITA-004
+    to: LOC-AEG-001
+    mode: sea
+    route_units: 14
+    terrain_factor: 1.0
+    season_factor: 1.2
+    transport_factor: 0.7
+    weather_factor: 1.0
+    unlock: ACT-ROME-010
+  - id: ROUTE-004
+    from: LOC-AEG-001
+    to: LOC-SYR-001
+    mode: sea_and_road
+    route_units: 10
+    terrain_factor: 1.1
+    season_factor: 1.0
+    transport_factor: 0.8
+    weather_factor: 1.0
+    unlock: ACT-ROME-015
+  - id: ROUTE-005
+    from: LOC-SYR-001
+    to: LOC-THR-001
+    mode: road
+    route_units: 12
+    terrain_factor: 1.2
+    season_factor: 1.0
+    transport_factor: 1.0
+    weather_factor: 1.0
+    unlock: ACT-ROME-016
+  - id: ROUTE-006
+    from: LOC-THR-001
+    to: LOC-HIS-001
+    mode: sea_and_road
+    route_units: 22
+    terrain_factor: 1.1
+    season_factor: 1.1
+    transport_factor: 0.8
+    weather_factor: 1.0
+    unlock: ACT-ROME-017
+  - id: ROUTE-007
+    from: LOC-HIS-001
+    to: LOC-GAL-001
+    mode: road_and_river
+    route_units: 18
+    terrain_factor: 1.0
+    season_factor: 1.0
+    transport_factor: 0.9
+    weather_factor: 1.0
+    unlock: ACT-ROME-018
