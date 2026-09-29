@@ -10,3 +10,10 @@
 - Confirmed that Roman slavery continues after the epilogue.
 - Established stable-ID and repository naming rules.
 - Identified supporting characters that require assigned IDs before runtime integration.
+
+## 2026-09-29 — Act I chronology and geography resolution
+
+- Fixed Act I as an AD 54–AD 55 one-year arc.
+- Added a canonical interstitial period between Livia's sale and Dama's escape.
+- Assigned Alban Hills Refuge the new location ID `LOC-ITA-005`.
+- Corrected ACT-ROME-006 and ACT-ROME-007 location references.

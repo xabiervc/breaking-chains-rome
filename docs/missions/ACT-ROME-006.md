@@ -2,7 +2,7 @@
 
 - Act: I
 - Date: AD 55, winter, two days after escape
-- Location: Alban Hills refuge
+- Location: Alban Hills Refuge (`LOC-ITA-005`)
 - Type: Survival, resource allocation, leadership
 - Classification: FICTION
 
@@ -27,7 +27,3 @@ ACT-ROME-005.
 ## Fixed outcome
 
 Vara dies from an internal injury. The memorial entry and reason to retrieve the ledger are always created.
-
-## Rewards and tests
-
-Lead XP 150; Alban Hills refuge unlocked; resource ledger unlocked; +5 Resistance Leadership. Vara's death is scripted and the resource ledger persists.

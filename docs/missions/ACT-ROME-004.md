@@ -1,7 +1,7 @@
 # ACT-ROME-004 — The Auction Wagon
 
 - Act: I
-- Date: AD 54, seven days after ACT-ROME-003
+- Date: AD 54, late summer, fixed sale day
 - Locations: Ashgrove sale yard, estate road
 - Type: Narrative loss, observation, forced transition
 - Classification: FICTION
@@ -25,8 +25,8 @@ ACT-ROME-003.
 
 ## Fixed outcome
 
-Livia is transferred toward Alexandria. The player cannot prevent the transfer, kill Vindex, or start the escape early. Detection resets Dama to the tool shed and the sequence continues unchanged.
+Livia is transferred toward Alexandria. The player cannot prevent the transfer, kill Vindex, or start the escape early. A deterministic time-passage montage follows, covering AD 54 autumn through AD 55 winter.
 
 ## Rewards
 
-Evidence `EVID-ITA-002`; Livia transport token; unlocks ACT-ROME-005.
+Evidence `EVID-ITA-002`; Livia transport token; unlocks ACT-ROME-005 after the interstitial period.

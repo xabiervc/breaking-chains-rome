@@ -6,10 +6,11 @@
 |---|---|---|
 | AD 54 spring | Dama works at Ashgrove and observes the transport seal. | ACT-ROME-001 |
 | AD 54 summer | Dama copies the transfer marks. | ACT-ROME-002 |
-| AD 54 seven days before sale | Dama and Livia create the textile cipher. | ACT-ROME-003 |
-| AD 54 sale day | Livia is transferred toward Alexandria. | ACT-ROME-004 |
+| AD 54 late summer, seven days before sale | Dama and Livia create the textile cipher. | ACT-ROME-003 |
+| AD 54 late summer, sale day | Livia is transferred toward Alexandria. | ACT-ROME-004 |
+| AD 54 autumn–AD 55 winter | Dama prepares under surveillance and maintains the cipher. | Interstitial authored period |
 | AD 55 winter | Dama, Nera, Silvanus, and Otho escape. | ACT-ROME-005 |
-| AD 55 winter, two days later | The group reaches the Alban Hills; Vara dies. | ACT-ROME-006 |
+| AD 55 winter, two days later | The group reaches Alban Hills Refuge; Vara dies. | ACT-ROME-006 |
 | AD 55 spring | Dama returns, kills Herennius, and destroys the register. | ACT-ROME-007 |
 | AD 56–62 | Dama builds the network and investigates the four systems. | ACT-ROME-008–019 |
 | AD 63 | Four target arcs are completed. | ACT-ROME-020–035 |
@@ -29,6 +30,16 @@
 - Crispus is recalled in ACT-ROME-027.
 - Drusus is captured in ACT-ROME-031.
 - Fabius escapes conviction in ACT-ROME-035.
+
+## Geography invariants
+
+- Ashgrove Estate: `LOC-ITA-001`.
+- Capua: `LOC-ITA-002`.
+- Rome: `LOC-ITA-003`.
+- Ostia: `LOC-ITA-004`.
+- Alban Hills Refuge: `LOC-ITA-005`.
+- ACT-ROME-006 uses `LOC-ITA-005`.
+- ACT-ROME-007 begins at `LOC-ITA-005` and returns to `LOC-ITA-001`.
 
 ## Evidence invariants
 

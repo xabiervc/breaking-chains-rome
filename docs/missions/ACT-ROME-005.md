@@ -8,11 +8,11 @@
 
 ## Purpose
 
-Turn observation into action and launch Dama's life as a fugitive.
+Turn observation into action and launch Dama's life as a fugitive after the interstitial preparation period.
 
 ## Prerequisites
 
-ACT-ROME-004 and `inventory.tool_roll=true`.
+ACT-ROME-004 and completion of the deterministic interstitial period.
 
 ## Ordered objectives
 
@@ -31,7 +31,3 @@ Nera, Silvanus, and Otho escape with Dama; the wagon is disabled; Herennius surv
 ## Determinism
 
 Diversion is at 18:40; patrol arrives at 18:43; the olive-grove point remains available unless the previous objective triggered lockdown.
-
-## Rewards and tests
-
-Move XP 200; fugitive identity unlocked; +8 Enslaved Communities reputation. All three companions are present after completion and pursuit activates once.
