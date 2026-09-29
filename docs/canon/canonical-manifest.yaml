@@ -1,0 +1,67 @@
+manifest_version: 1
+project: Breaking Chains: Rome
+canonical_sources:
+  narrative:
+    - docs/canon/continuity-matrix.md
+    - docs/canon/id-registry.md
+    - docs/story/timeline.md
+    - docs/GDD.md
+  missions:
+    - docs/missions/ACT-ROME-001.md
+    - docs/missions/ACT-ROME-002.md
+    - docs/missions/ACT-ROME-003.md
+    - docs/missions/ACT-ROME-004.md
+    - docs/missions/ACT-ROME-005.md
+    - docs/missions/ACT-ROME-006.md
+    - docs/missions/ACT-ROME-007.md
+    - docs/missions/ACT-ROME-008.md
+    - docs/missions/ACT-ROME-009.md
+    - docs/missions/ACT-ROME-010.md
+    - docs/missions/ACT-ROME-011.md
+    - docs/missions/ACT-ROME-012.md
+    - docs/missions/ACT-ROME-013.md
+    - docs/missions/ACT-ROME-014.md
+    - docs/missions/ACT-ROME-015.md
+    - docs/missions/ACT-ROME-016.md
+    - docs/missions/ACT-ROME-017.md
+    - docs/missions/ACT-ROME-018.md
+    - docs/missions/ACT-ROME-019.md
+    - docs/missions/ACT-ROME-020.md
+    - docs/missions/ACT-ROME-021.md
+    - docs/missions/ACT-ROME-022.md
+    - docs/missions/ACT-ROME-023.md
+    - docs/missions/ACT-ROME-024.md
+    - docs/missions/ACT-ROME-025.md
+    - docs/missions/ACT-ROME-026.md
+    - docs/missions/ACT-ROME-027.md
+    - docs/missions/ACT-ROME-028.md
+    - docs/missions/ACT-ROME-029.md
+    - docs/missions/ACT-ROME-030.md
+    - docs/missions/ACT-ROME-031.md
+    - docs/missions/ACT-ROME-032.md
+    - docs/missions/ACT-ROME-033.md
+    - docs/missions/ACT-ROME-034.md
+    - docs/missions/ACT-ROME-035.md
+    - docs/missions/ACT-ROME-036.md
+    - docs/missions/ACT-ROME-037.md
+    - docs/missions/ACT-ROME-038.md
+    - docs/missions/ACT-ROME-039.md
+    - docs/missions/ACT-ROME-040.md
+    - docs/missions/ACT-ROME-041.md
+    - docs/missions/ACT-ROME-042.md
+  structured_runtime:
+    - data/mission-definitions.yaml
+    - data/character-definitions.yaml
+    - data/location-definitions.yaml
+    - data/evidence-definitions.yaml
+    - data/route-definitions.yaml
+    - data/faction-definitions.yaml
+    - data/side-mission-definitions.yaml
+    - data/dialogue-definitions.yaml
+  implementation_contracts:
+    - docs/DETERMINISM_SPECIFICATION.md
+    - docs/SAVE_AND_VERSIONING.md
+    - docs/UE5_ARCHITECTURE.md
+    - docs/CPP_BLUEPRINT_BOUNDARIES.md
+canonical_exclusions:
+  - data/legacy/

@@ -11,16 +11,24 @@
 
 ## Current status
 
-- Narrative canon: specified and continuity-audited.
-- Main missions 001–042: specified and structured.
+- Narrative canon: specified and undergoing source-of-truth normalization.
+- Main missions 001–042: individual briefs exist; canonical structured definitions exist.
 - Supporting characters 001–026: structured.
-- Cross-references: validator implemented; execution requires PyYAML.
+- Duplicate legacy data: isolated under `data/legacy/` and excluded from runtime.
+- Cross-reference validators: implemented; execution requires PyYAML.
 - Unreal architecture: specified.
 - Unreal project: not generated.
 - C++ and Blueprint runtime: not generated.
 - Engine compilation: not executed.
-- Historical and language review: not verified.
+- Historical, language, and sensitivity review: not verified.
+
+## Step 1 exit criteria
+
+- One documented source hierarchy.
+- One canonical structured-definition layer.
+- Legacy duplicates excluded from runtime.
+- No ambiguity about which files an LLM should read for implementation.
 
 ## Remaining gates
 
-Lock the exact UE5 minor version, target hardware, and frame-rate budget. Install PyYAML and run all validators. Then generate the Unreal project and begin the Ashgrove vertical slice. Historical specialists, language specialists, sensitivity review, asset provenance, and performance profiling remain external verification gates.
+Resolve canonical timeline, geography, evidence, route, Act III calendar, and fire/evacuation contradictions. Then execute validators, lock the exact UE5 minor version and target hardware, and generate the Unreal project.
