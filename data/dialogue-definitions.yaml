@@ -2,14 +2,35 @@ dialogue_scenes:
   - id: SCENE-ITA-001
     title: First Bell at Ashgrove
     mission: ACT-ROME-001
-    speakers: [CHAR-001, CHAR-014, CHAR-015]
+    speakers: [CHAR-001, CHAR-014, CHAR-018, CHAR-019]
     voice_languages: [latin, thracian_research_required]
     translation_mode: subtitle_metadata_only
     historical_review: required
   - id: SCENE-ITA-002
     title: The Sale Yard
     mission: ACT-ROME-004
-    speakers: [CHAR-001, CHAR-002, CHAR-003]
+    speakers: [CHAR-001, CHAR-002, CHAR-003, CHAR-018, CHAR-024]
     voice_languages: [latin, thracian_research_required]
     translation_mode: subtitle_metadata_only
+    historical_review: required
+  - id: SCENE-AEG-001
+    title: Alexandria Interpreter Contact
+    mission: ACT-ROME-013
+    speakers: [CHAR-001, CHAR-009, CHAR-023]
+    voice_languages: [koine_greek, egyptian, latin]
+    translation_mode: interpreter_mediated
+    historical_review: required
+  - id: SCENE-SYR-001
+    title: The Caravan Witness
+    mission: ACT-ROME-025
+    speakers: [CHAR-001, CHAR-025]
+    voice_languages: [western_aramaic, koine_greek]
+    translation_mode: interpreter_mediated
+    historical_review: required
+  - id: SCENE-THR-001
+    title: The Veteran's Oath
+    mission: ACT-ROME-029
+    speakers: [CHAR-001, CHAR-011, CHAR-026]
+    voice_languages: [thracian_research_required, koine_greek, latin]
+    translation_mode: partial_comprehension
     historical_review: required

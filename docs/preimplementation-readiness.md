@@ -2,39 +2,25 @@
 
 ## Status vocabulary
 
-- **Specified:** described in an approved design document.
-- **Structured:** represented in validated YAML/JSON with stable IDs.
-- **Generated:** source files or assets have been created.
-- **Compiled:** the Unreal project builds successfully in the locked engine version.
-- **Executed:** automated tests or tools have run.
-- **Verified:** a human or qualified reviewer has inspected the result.
+- Specified: approved design documentation exists.
+- Structured: validated YAML/JSON with stable IDs exists.
+- Generated: source files or assets exist.
+- Compiled: the locked Unreal project builds.
+- Executed: tools or tests have run.
+- Verified: a qualified reviewer has inspected the result.
 
 ## Current status
 
-- Narrative canon: specified and audited.
-- Main mission catalogue: specified; Act III production files included in this phase.
-- Structured content: partially structured and being normalized.
+- Narrative canon: specified and continuity-audited.
+- Main missions 001–042: specified and structured.
+- Supporting characters 001–026: structured.
+- Cross-references: validator implemented; execution requires PyYAML.
 - Unreal architecture: specified.
 - Unreal project: not generated.
-- C++ runtime: not generated.
-- Blueprint runtime: not generated.
-- Binary assets: not generated.
+- C++ and Blueprint runtime: not generated.
 - Engine compilation: not executed.
-- Unreal automation tests: not executed.
-- Historical language review: not verified.
+- Historical and language review: not verified.
 
-## Exit criteria for preimplementation
+## Remaining gates
 
-1. Every canonical entity has one stable ID.
-2. Every reference resolves to an entity of the correct type.
-3. Every main mission has an individual brief and structured record.
-4. Timeline, mission dependencies, locations, characters, evidence, routes, and final states agree.
-5. Root Git configuration is active.
-6. Validators run without structural or canonical errors.
-7. The exact Unreal version and target hardware are recorded before project generation.
-8. The vertical-slice contract is complete.
-9. No document claims that code or assets are compiled or playable when they are not.
-
-## Remaining external gates
-
-Historical specialists, language specialists, sensitivity reviewers, target-hardware profiling, exact Unreal minor-version selection, and actual engine compilation remain external verification gates.
+Lock the exact UE5 minor version, target hardware, and frame-rate budget. Install PyYAML and run all validators. Then generate the Unreal project and begin the Ashgrove vertical slice. Historical specialists, language specialists, sensitivity review, asset provenance, and performance profiling remain external verification gates.

@@ -1,43 +1,8 @@
 routes:
-  - id: ROUTE-001
-    from: LOC-ITA-003
-    to: LOC-ITA-002
-    mode: road
-    unlock_mission: ACT-ROME-008
-    classification: RECONSTRUCTION
-  - id: ROUTE-002
-    from: LOC-ITA-003
-    to: LOC-ITA-004
-    mode: river
-    unlock_mission: ACT-ROME-009
-    classification: RECONSTRUCTION
-  - id: ROUTE-003
-    from: LOC-ITA-004
-    to: LOC-AEG-001
-    mode: sea
-    unlock_mission: ACT-ROME-010
-    classification: RECONSTRUCTION
-  - id: ROUTE-004
-    from: LOC-AEG-001
-    to: LOC-SYR-001
-    mode: sea_and_road
-    unlock_mission: ACT-ROME-015
-    classification: RECONSTRUCTION
-  - id: ROUTE-005
-    from: LOC-SYR-001
-    to: LOC-THR-001
-    mode: road
-    unlock_mission: ACT-ROME-016
-    classification: RECONSTRUCTION
-  - id: ROUTE-006
-    from: LOC-THR-001
-    to: LOC-HIS-001
-    mode: sea_and_road
-    unlock_mission: ACT-ROME-017
-    classification: RECONSTRUCTION
-  - id: ROUTE-007
-    from: LOC-HIS-001
-    to: LOC-GAL-001
-    mode: road_and_river
-    unlock_mission: ACT-ROME-018
-    classification: RECONSTRUCTION
+  - {id: ROUTE-001, from: LOC-ITA-003, to: LOC-ITA-002, mode: road, unlock_mission: ACT-ROME-008, classification: RECONSTRUCTION}
+  - {id: ROUTE-002, from: LOC-ITA-003, to: LOC-ITA-004, mode: river, unlock_mission: ACT-ROME-009, classification: RECONSTRUCTION}
+  - {id: ROUTE-003, from: LOC-ITA-004, to: LOC-AEG-001, mode: sea, unlock_mission: ACT-ROME-010, classification: RECONSTRUCTION}
+  - {id: ROUTE-004, from: LOC-AEG-001, to: LOC-SYR-001, mode: sea_and_road, unlock_mission: ACT-ROME-015, classification: RECONSTRUCTION}
+  - {id: ROUTE-005, from: LOC-SYR-001, to: LOC-THR-001, mode: road, unlock_mission: ACT-ROME-016, classification: RECONSTRUCTION}
+  - {id: ROUTE-006, from: LOC-THR-001, to: LOC-HIS-001, mode: sea_and_road, unlock_mission: ACT-ROME-017, classification: RECONSTRUCTION}
+  - {id: ROUTE-007, from: LOC-HIS-001, to: LOC-GAL-001, mode: road_and_river, unlock_mission: ACT-ROME-018, classification: RECONSTRUCTION}

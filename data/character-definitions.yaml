@@ -1,118 +1,27 @@
 characters:
-  - id: CHAR-001
-    name: Dama
-    role: protagonist
-    age_at_start: 29
-    status_at_start: enslaved
-    origin: Thrace
-    languages: [thracian_research_required, latin_functional, greek_limited]
-    final_status: survives_unidentified
-    classification: FICTION
-  - id: CHAR-002
-    name: Livia
-    role: sister_healer_organizer
-    age_at_start: 23
-    status_at_start: enslaved
-    origin: Campania
-    languages: [thracian, greek, egyptian_exposure]
-    final_status: survives_refugee_medical_network
-    classification: FICTION
-  - id: CHAR-003
-    name: Vindex Varro
-    role: personal_antagonist
-    age_at_start: 52
-    status_at_start: free_equestrian
-    origin: Italia
-    languages: [latin, greek]
-    final_status: dies_in_ACT-ROME-042
-    classification: FICTION
-  - id: CHAR-004
-    name: Cassia Varro
-    role: complicit_daughter_informant
-    age_at_start: 24
-    status_at_start: free
-    origin: Italia
-    languages: [latin, greek]
-    final_status: survives_disowned
-    classification: FICTION
-  - id: CHAR-005
-    name: Aulus Secundus
-    role: shipping_magnate_target
-    age_at_start: 47
-    status_at_start: free
-    origin: Alexandria
-    languages: [koine_greek, latin, egyptian_exposure]
-    final_status: arrested_in_ACT-ROME-023
-    classification: FICTION
-  - id: CHAR-006
-    name: Gaius Valerius Crispus
-    role: provincial_governor_target
-    age_at_start: 56
-    status_at_start: free_official
-    origin: Italia
-    languages: [latin, koine_greek, aramaic_exposure]
-    final_status: recalled_in_ACT-ROME-027
-    classification: FICTION
-  - id: CHAR-007
-    name: Marcus Laelius Drusus
-    role: military_procurator_target
-    age_at_start: 44
-    status_at_start: free_official
-    origin: Thrace
-    languages: [latin, thracian_heritage]
-    final_status: captured_in_ACT-ROME-031
-    classification: FICTION
-  - id: CHAR-008
-    name: Lucius Fabius Varro
-    role: senatorial_protector_target
-    age_at_start: 61
-    status_at_start: senator
-    origin: Italia
-    languages: [latin, greek]
-    final_status: escapes_conviction_in_ACT-ROME-035
-    classification: FICTION
-  - id: CHAR-009
-    name: Nicanor
-    role: engineer
-    age_at_start: 38
-    status_at_start: freed
-    origin: Alexandria
-    languages: [koine_greek, latin, egyptian]
-    final_status: survives_eastern_workshop_network
-    classification: FICTION
-  - id: CHAR-010
-    name: Tertia
-    role: courier_information_coordinator
-    age_at_start: 35
-    status_at_start: freed
-    origin: Rome
-    languages: [latin, koine_greek]
-    final_status: survives_distributing_archive_fragments
-    classification: FICTION
-  - id: CHAR-011
-    name: Bato
-    role: veteran_deserter
-    age_at_start: 41
-    status_at_start: free
-    origin: Thrace
-    languages: [thracian_heritage, latin]
-    final_status: survives_leading_survivors
-    classification: FICTION
-  - id: CHAR-012
-    name: Eirene
-    role: Subura_organizer
-    age_at_start: 46
-    status_at_start: freed
-    origin: Rome
-    languages: [koine_greek, latin]
-    final_status: survives_organizing_displaced_families
-    classification: FICTION
-  - id: CHAR-013
-    name: Publius Caecilius
-    role: fire_watch_officer
-    age_at_start: 39
-    status_at_start: free
-    origin: Rome
-    languages: [latin]
-    final_status: survives_under_false_report
-    classification: FICTION
+  - {id: CHAR-001, name: Dama, role: protagonist, age_at_start: 29, status_at_start: enslaved, origin: Thrace, languages: [thracian_research_required, latin_functional, greek_limited], final_status: survives_unidentified, classification: FICTION}
+  - {id: CHAR-002, name: Livia, role: sister_healer_organizer, age_at_start: 23, status_at_start: enslaved, origin: Campania, languages: [thracian, greek, egyptian_exposure], final_status: survives_refugee_medical_network, classification: FICTION}
+  - {id: CHAR-003, name: Vindex Varro, role: personal_antagonist, age_at_start: 52, status_at_start: free_equestrian, origin: Italia, languages: [latin, greek], final_status: dies_in_ACT-ROME-042, classification: FICTION}
+  - {id: CHAR-004, name: Cassia Varro, role: complicit_daughter_informant, age_at_start: 24, status_at_start: free, origin: Italia, languages: [latin, greek], final_status: survives_disowned, classification: FICTION}
+  - {id: CHAR-005, name: Aulus Secundus, role: shipping_magnate_target, age_at_start: 47, status_at_start: free, origin: Alexandria, languages: [koine_greek, latin, egyptian_exposure], final_status: arrested_in_ACT-ROME-023, classification: FICTION}
+  - {id: CHAR-006, name: Gaius Valerius Crispus, role: provincial_governor_target, age_at_start: 56, status_at_start: free_official, origin: Italia, languages: [latin, koine_greek, aramaic_exposure], final_status: recalled_in_ACT-ROME-027, classification: FICTION}
+  - {id: CHAR-007, name: Marcus Laelius Drusus, role: military_procurator_target, age_at_start: 44, status_at_start: free_official, origin: Thrace, languages: [latin, thracian_heritage], final_status: captured_in_ACT-ROME-031, classification: FICTION}
+  - {id: CHAR-008, name: Lucius Fabius Varro, role: senatorial_protector_target, age_at_start: 61, status_at_start: senator, origin: Italia, languages: [latin, greek], final_status: escapes_conviction_in_ACT-ROME-035, classification: FICTION}
+  - {id: CHAR-009, name: Nicanor, role: engineer, age_at_start: 38, status_at_start: freed, origin: Alexandria, languages: [koine_greek, latin, egyptian], final_status: survives_eastern_workshop_network, classification: FICTION}
+  - {id: CHAR-010, name: Tertia, role: courier_information_coordinator, age_at_start: 35, status_at_start: freed, origin: Rome, languages: [latin, koine_greek], final_status: survives_distributing_archive_fragments, classification: FICTION}
+  - {id: CHAR-011, name: Bato, role: veteran_deserter, age_at_start: 41, status_at_start: free, origin: Thrace, languages: [thracian_heritage, latin], final_status: survives_leading_survivors, classification: FICTION}
+  - {id: CHAR-012, name: Eirene, role: Subura_organizer, age_at_start: 46, status_at_start: freed, origin: Rome, languages: [koine_greek, latin], final_status: survives_organizing_displaced_families, classification: FICTION}
+  - {id: CHAR-013, name: Publius Caecilius, role: fire_watch_officer, age_at_start: 39, status_at_start: free, origin: Rome, languages: [latin], final_status: survives_under_false_report, classification: FICTION}
+  - {id: CHAR-014, name: Nera, role: kitchen_worker_resistance_contact, age_at_start: 31, status_at_start: enslaved, origin: Campania, languages: [latin, thracian], final_status: survives_act_1, classification: FICTION}
+  - {id: CHAR-015, name: Silvanus, role: fugitive_companion, age_at_start: 27, status_at_start: enslaved, origin: Campania, languages: [latin], final_status: survives_act_1, classification: FICTION}
+  - {id: CHAR-016, name: Otho, role: fugitive_companion, age_at_start: 34, status_at_start: enslaved, origin: Campania, languages: [latin, regional_italian], final_status: survives_act_1, classification: FICTION}
+  - {id: CHAR-017, name: Vara, role: wounded_fugitive, age_at_start: 29, status_at_start: enslaved, origin: Italia, languages: [latin], final_status: dies_in_ACT-ROME-006, classification: FICTION}
+  - {id: CHAR-018, name: Herennius, role: estate_overseer, age_at_start: 45, status_at_start: free, origin: Italia, languages: [latin], final_status: dies_in_ACT-ROME-007, classification: FICTION}
+  - {id: CHAR-019, name: Lucan, role: young_forge_assistant, age_at_start: 19, status_at_start: enslaved, origin: Campania, languages: [latin], final_status: survives_act_1, classification: FICTION}
+  - {id: CHAR-020, name: Silia, role: administrative_clerk, age_at_start: 36, status_at_start: freed, origin: Italia, languages: [latin, greek], final_status: survives_act_1, classification: FICTION}
+  - {id: CHAR-021, name: Sura, role: rescued_ludus_captive, age_at_start: 22, status_at_start: enslaved, origin: Graecia, languages: [koine_greek, latin_limited], final_status: survives_act_2, classification: FICTION}
+  - {id: CHAR-022, name: Menon, role: rescued_ludus_captive_informant, age_at_start: 26, status_at_start: enslaved, origin: Thrace, languages: [koine_greek, latin_limited], final_status: remains_in_capua_as_informant, classification: FICTION}
+  - {id: CHAR-023, name: Ptolemy, role: alexandrian_interpreter, age_at_start: 42, status_at_start: freed, origin: Alexandria, languages: [koine_greek, egyptian, latin], final_status: survives_act_2, classification: FICTION}
+  - {id: CHAR-024, name: Marius Pell, role: auction_broker, age_at_start: 49, status_at_start: free, origin: Italia, languages: [latin, greek], final_status: survives_act_1, classification: FICTION}
+  - {id: CHAR-025, name: Samir, role: antioch_caravan_witness, age_at_start: 40, status_at_start: free, origin: Syria, languages: [western_aramaic, koine_greek], final_status: survives_ACT-ROME-027, classification: FICTION}
+  - {id: CHAR-026, name: Diodoros, role: thracian_veteran_witness, age_at_start: 37, status_at_start: free, origin: Thrace, languages: [koine_greek, latin, thracian_heritage], final_status: survives_ACT-ROME-031, classification: FICTION}
