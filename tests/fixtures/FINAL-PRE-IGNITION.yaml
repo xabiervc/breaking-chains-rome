@@ -1,0 +1,7 @@
+fixture_id: FINAL-PRE-IGNITION
+content_version: 2
+campaign_date: AD64-07-18
+evacuation_tier: 3
+mandatory_rescue_count: 40
+completed_missions: [ACT-ROME-023, ACT-ROME-027, ACT-ROME-031, ACT-ROME-035, ACT-ROME-036, ACT-ROME-037, ACT-ROME-038, ACT-ROME-039, ACT-ROME-040, ACT-ROME-041]
+flags: {final_mission_started: true, rescue_packet_copied: false, archive_destroyed: false}

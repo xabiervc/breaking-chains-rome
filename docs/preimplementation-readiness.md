@@ -1,20 +1,31 @@
-# Preimplementation readiness
+# Preimplementation Readiness
 
 ## Status vocabulary
 
-Specified means documented; structured means machine-readable; validated means actual validators passed; compiled means an Unreal build ran. These states are not interchangeable.
+- Specified: approved design documentation exists.
+- Structured: validated YAML/JSON with stable IDs exists.
+- Generated: source files or assets exist.
+- Executed: validators or tests have run.
+- Compiled: the locked Unreal project builds.
+- Verified: a qualified reviewer has inspected the result.
 
 ## Current status
 
-- The 42 main mission briefs exist and the 42-entry structured mission index has been restored; parsing and cross-document consistency are not yet verified.
-- The Act I time-passage condition is a campaign flag, not a nonexistent mission.
-- Duplicate YAML files remain in `data/` and are explicitly excluded by the manifest. `data/legacy/` contains notice stubs, not copies of those files.
-- Canonical Act IV fire data are blocked pending consistency repair.
-- No Unreal project, binary assets, C++ compilation, or gameplay test exists.
+- Narrative canon: specified and continuity-audited.
+- Main missions 001–042: specified and structured.
+- Supporting characters 001–026: structured.
+- Evidence, routes, evacuation, and fire decisions: specified and structured.
+- Schemas: expanded for remaining canonical entity types.
+- Fixtures and Python tests: expanded; execution pending local/CI run.
+- Unreal project: not generated.
+- C++/Blueprint runtime: not generated.
+- Historical, linguistic, sensitivity, and hardware reviews: not verified.
 
-## Gate before implementation
+## Remaining preimplementation gates
 
-1. Resolve chronology, geography, evidence, travel and final-fire contradictions across prose and data.
-2. Make all canonical references resolve and run validators against the manifest.
-3. Record the exact Unreal version and test hardware.
-4. Do not mark this project verified until those tests run and pass.
+1. Run `python tools/validate_master.py`.
+2. Run `python -m unittest discover -s tests -v`.
+3. Fix any failures and commit the generated reports.
+4. Lock exact Unreal Engine version, target hardware, and performance budget.
+5. Complete historical, linguistic, sensitivity, and asset-provenance reviews.
+6. Generate and compile the Unreal project.

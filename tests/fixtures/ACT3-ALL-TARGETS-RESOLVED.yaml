@@ -1,0 +1,5 @@
+fixture_id: ACT3-ALL-TARGETS-RESOLVED
+content_version: 2
+campaign_date: AD63-winter
+completed_missions: [ACT-ROME-019, ACT-ROME-023, ACT-ROME-027, ACT-ROME-031, ACT-ROME-035]
+flags: {act1_interstitial_complete: true, final_mission_started: false, rescue_packet_copied: false, archive_destroyed: false}
