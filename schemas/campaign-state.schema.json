@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Breaking Chains Rome Campaign State",
+  "type": "object",
+  "required": ["version", "completed_missions", "discovered_routes", "evidence_states", "faction_states", "rescued_people", "fire_zone_states", "evacuation_tier"],
+  "properties": {
+    "version": {"type": "integer", "minimum": 1},
+    "completed_missions": {"type": "array", "items": {"type": "string"}},
+    "discovered_routes": {"type": "array", "items": {"type": "string"}},
+    "evidence_states": {"type": "object", "additionalProperties": {"type": "string"}},
+    "faction_states": {"type": "object", "additionalProperties": {"type": "string"}},
+    "rescued_people": {"type": "array", "items": {"type": "object"}},
+    "fire_zone_states": {"type": "object", "additionalProperties": {"type": "string"}},
+    "evacuation_tier": {"type": "integer", "minimum": 0, "maximum": 3}
+  },
+  "additionalProperties": true
+}

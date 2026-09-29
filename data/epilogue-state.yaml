@@ -1,0 +1,23 @@
+epilogue:
+  unlock_condition: ACT-ROME-042.complete
+  start_date: AD64-08
+  character_outcomes:
+    CHAR-001: survives_unidentified
+    CHAR-002: establishes_refugee_medical_network
+    CHAR-009: joins_eastern_workshop_network
+    CHAR-010: distributes_archive_fragments
+    CHAR-011: leads_survivors_away_from_reprisals
+    CHAR-012: organizes_displaced_families
+    CHAR-013: returns_to_fire_watch_under_false_report
+  civilian_survival_by_tier:
+    0: 80
+    1: 140
+    2: 220
+    3: 320
+  canonical_rescues: 40
+  network_destroyed: true
+  roman_slavery_ended: false
+  public_historical_record:
+    dama_named: false
+    cause_of_fire_resolved: false
+    varro_network_publicly_proven: false
