@@ -1,0 +1,55 @@
+characters:
+  - id: CHAR-001
+    name: Dama
+    role: protagonist
+    age_at_start: 29
+    origin: Thrace
+    legal_status: enslaved
+    languages: [thracian_research_required, latin_functional, greek_limited]
+    survival_status: survives_final_mission
+    classification: FICTION
+  - id: CHAR-002
+    name: Livia
+    role: sister_healer_organizer
+    age_at_start: 23
+    origin: Campania_estate
+    legal_status: enslaved
+    languages: [thracian, greek, egyptian_exposure]
+    survival_status: survives_final_mission
+    classification: FICTION
+  - id: CHAR-003
+    name: Vindex Varro
+    role: personal_antagonist
+    age_at_start: 52
+    origin: Italia
+    legal_status: free_equestrian
+    languages: [latin, greek]
+    survival_status: dies_in_ACT-ROME-042
+    classification: FICTION
+  - id: CHAR-005
+    name: Aulus Secundus
+    role: shipping_magnate_target
+    age_at_start: 47
+    origin: Alexandria
+    legal_status: free
+    languages: [koine_greek, latin, egyptian_exposure]
+    survival_status: arrested_after_ACT-ROME-023
+    classification: FICTION
+  - id: CHAR-006
+    name: Gaius Valerius Crispus
+    role: provincial_governor_target
+    age_at_start: 56
+    origin: Italia
+    legal_status: free_official
+    languages: [latin, koine_greek, aramaic_exposure]
+    survival_status: recalled_after_ACT-ROME-027
+    classification: FICTION
+  - id: CHAR-007
+    name: Marcus Laelius Drusus
+    role: military_procurator_target
+    age_at_start: 44
+    origin: Thrace
+    legal_status: free_official
+    languages: [latin, thracian_heritage]
+    survival_status: captured_after_ACT-ROME-031
+    classification: FICTION

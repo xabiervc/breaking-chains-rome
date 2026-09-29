@@ -1,0 +1,33 @@
+locations:
+  - id: LOC-ITA-001
+    name: Ashgrove Estate
+    region: Italia
+    type: rural_estate
+    languages: [latin, thracian, regional_italian]
+    security_level: 3
+    missions: [ACT-ROME-001, ACT-ROME-002, ACT-ROME-003, ACT-ROME-004, ACT-ROME-007]
+    classification: FICTION
+  - id: LOC-ITA-002
+    name: Capua
+    region: Italia
+    type: city
+    languages: [latin, koine_greek, regional_italian]
+    security_level: 3
+    missions: [ACT-ROME-008, ACT-ROME-009]
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION
+  - id: LOC-ITA-003
+    name: Rome
+    region: Italia
+    type: metropolis
+    languages: [latin, koine_greek, regional_languages]
+    security_level: 4
+    missions: [ACT-ROME-008, ACT-ROME-009, ACT-ROME-032, ACT-ROME-033, ACT-ROME-034, ACT-ROME-035, ACT-ROME-036, ACT-ROME-037, ACT-ROME-038, ACT-ROME-039, ACT-ROME-040, ACT-ROME-041, ACT-ROME-042]
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION
+  - id: LOC-AEG-001
+    name: Alexandria
+    region: Aegyptus
+    type: port_city
+    languages: [koine_greek, egyptian, latin]
+    security_level: 4
+    missions: [ACT-ROME-013, ACT-ROME-014, ACT-ROME-015, ACT-ROME-020, ACT-ROME-021, ACT-ROME-022, ACT-ROME-023]
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION

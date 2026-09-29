@@ -1,0 +1,57 @@
+missions:
+  - id: ACT-ROME-001
+    title: The Bell Before Dawn
+    act: 1
+    date: AD54_spring
+    prerequisites: []
+    locations: [LOC-ITA-001]
+    success_state: knowledge.transport_seal=true
+    classification: FICTION
+  - id: ACT-ROME-002
+    title: The Ledger Room
+    act: 1
+    date: AD54_summer
+    prerequisites: [ACT-ROME-001]
+    locations: [LOC-ITA-001]
+    success_state: evidence.ashgrove_transfer_marks=true
+    classification: FICTION
+  - id: ACT-ROME-003
+    title: Thread and Ash
+    act: 1
+    date: AD54_seven_days_before_sale
+    prerequisites: [ACT-ROME-002]
+    locations: [LOC-ITA-001]
+    success_state: knowledge.textile_cipher=1
+    classification: FICTION
+  - id: ACT-ROME-004
+    title: The Auction Wagon
+    act: 1
+    date: AD54_sale_day
+    prerequisites: [ACT-ROME-003]
+    locations: [LOC-ITA-001]
+    success_state: character.CHAR-002.status=transferred_toward_alexandria
+    classification: FICTION
+  - id: ACT-ROME-005
+    title: The Broken Axle
+    act: 1
+    date: AD55_winter
+    prerequisites: [ACT-ROME-004]
+    locations: [LOC-ITA-001, LOC-ITA-002]
+    success_state: fugitive_group.count=4
+    classification: FICTION
+  - id: ACT-ROME-006
+    title: Ash in the Hills
+    act: 1
+    date: AD55_winter_two_days_after_escape
+    prerequisites: [ACT-ROME-005]
+    locations: [LOC-ITA-003]
+    success_state: refuge.alban_hills=unlocked
+    classification: FICTION
+  - id: ACT-ROME-007
+    title: The Overseer's Road
+    act: 1
+    date: AD55_spring
+    prerequisites: [ACT-ROME-006]
+    locations: [LOC-ITA-001]
+    success_state: character.HERENNIUS.status=dead
+    classification: FICTION
