@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Breaking Chains Rome Fire Zone",
+  "type": "object",
+  "required": ["id", "name", "state_at_start", "combustible_class", "water_access", "next_zones"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^FIRE-ZONE-[0-9]{3}$"},
+    "name": {"type": "string"},
+    "state_at_start": {"type": "string", "enum": ["unlit", "ignition_ready", "safe"]},
+    "ignition_time": {"type": "string"},
+    "prerequisite": {"type": "string"},
+    "threshold": {"type": "integer", "minimum": 0},
+    "combustible_class": {"type": "string", "enum": ["low", "medium", "high"]},
+    "water_access": {"type": "string", "enum": ["low", "medium", "high"]},
+    "next_zones": {"type": "array", "items": {"type": "string"}}
+  }
+}

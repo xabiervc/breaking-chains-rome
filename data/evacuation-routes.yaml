@@ -1,0 +1,28 @@
+evacuation_routes:
+  - id: EVAC-001
+    name: Subura Underground Route
+    origin: LOC-ITA-003.SUBURA
+    destination: LOC-ITA-003.AVENTINE_REFUGE
+    capacity_tier_0: 0
+    capacity_tier_1: 40
+    capacity_tier_2: 90
+    capacity_tier_3: 140
+    required_mission: ACT-ROME-036
+  - id: EVAC-002
+    name: Aventine Garden Route
+    origin: LOC-ITA-003.CIRCUS_DISTRICT
+    destination: LOC-ITA-003.AVENTINE_REFUGE
+    capacity_tier_0: 0
+    capacity_tier_1: 0
+    capacity_tier_2: 70
+    capacity_tier_3: 100
+    required_mission: ACT-ROME-039
+  - id: EVAC-003
+    name: Tiber Warehouse Route
+    origin: LOC-ITA-003.TIBER_WAREHOUSES
+    destination: LOC-ITA-004.OSTIA_ROUTE
+    capacity_tier_0: 0
+    capacity_tier_1: 0
+    capacity_tier_2: 40
+    capacity_tier_3: 80
+    required_mission: ACT-ROME-039

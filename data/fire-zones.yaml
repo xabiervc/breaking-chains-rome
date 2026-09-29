@@ -1,0 +1,39 @@
+fire_zones:
+  - id: FIRE-ZONE-001
+    name: Tiber Warehouse
+    state_at_start: ignition_ready
+    ignition_time: AD64-07-18T21:10
+    prerequisite: evacuation.route_1_open
+    combustible_class: high
+    water_access: medium
+    next_zones: [FIRE-ZONE-002, FIRE-ZONE-003]
+  - id: FIRE-ZONE-002
+    name: Esquiline Storehouses
+    state_at_start: unlit
+    prerequisite: FIRE-ZONE-001.burning
+    threshold: 1
+    combustible_class: high
+    water_access: low
+    next_zones: [FIRE-ZONE-004]
+  - id: FIRE-ZONE-003
+    name: Subura Commercial Lane
+    state_at_start: ignition_ready
+    prerequisite: evacuation.route_2_open
+    combustible_class: medium
+    water_access: medium
+    next_zones: [FIRE-ZONE-004]
+  - id: FIRE-ZONE-004
+    name: Circus Archive District
+    state_at_start: unlit
+    prerequisite: FIRE-ZONE-002.burning and FIRE-ZONE-003.burning
+    threshold: 2
+    combustible_class: high
+    water_access: low
+    next_zones: [FIRE-ZONE-005]
+  - id: FIRE-ZONE-005
+    name: Aventine Firebreak
+    state_at_start: safe
+    prerequisite: evacuation.route_3_open
+    combustible_class: low
+    water_access: high
+    next_zones: []

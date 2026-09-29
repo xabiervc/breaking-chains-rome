@@ -1,0 +1,31 @@
+specialists:
+  - id: CHAR-002
+    name: Livia
+    function: medical_triage_and_textile_codes
+    required: true
+    survives_final: true
+  - id: CHAR-009
+    name: Nicanor
+    function: locks_water_channels_firebreaks
+    required: true
+    survives_final: true
+  - id: CHAR-010
+    name: Tertia
+    function: couriers_and_identity_documents
+    required: true
+    survives_final: true
+  - id: CHAR-011
+    name: Bato
+    function: defensive_evacuation
+    required: true
+    survives_final: true
+  - id: CHAR-012
+    name: Eirene
+    function: civilian_shelters_and_logistics
+    required: true
+    survives_final: true
+  - id: CHAR-013
+    name: Publius Caecilius
+    function: fire_watch_routes
+    required: true
+    survives_final: true

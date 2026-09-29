@@ -1,0 +1,9 @@
+act_4:
+  required_missions: [ACT-ROME-023, ACT-ROME-027, ACT-ROME-031, ACT-ROME-035]
+  specialists:
+    required: [CHAR-002, CHAR-009, CHAR-010, CHAR-011, CHAR-012, CHAR-013]
+  preparation_missions: [ACT-ROME-036, ACT-ROME-037, ACT-ROME-038, ACT-ROME-039, ACT-ROME-040, ACT-ROME-041]
+  final_mission: ACT-ROME-042
+  final_date: AD64-07-18
+  canonical_rescue_count: 40
+  roman_slavery_ended: false

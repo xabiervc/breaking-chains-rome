@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Breaking Chains Rome Evacuation Route",
+  "type": "object",
+  "required": ["id", "name", "origin", "destination", "capacity_tier_0", "capacity_tier_1", "capacity_tier_2", "capacity_tier_3", "required_mission"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^EVAC-[0-9]{3}$"},
+    "name": {"type": "string"},
+    "origin": {"type": "string"},
+    "destination": {"type": "string"},
+    "capacity_tier_0": {"type": "integer", "minimum": 0},
+    "capacity_tier_1": {"type": "integer", "minimum": 0},
+    "capacity_tier_2": {"type": "integer", "minimum": 0},
+    "capacity_tier_3": {"type": "integer", "minimum": 0},
+    "required_mission": {"type": "string"}
+  }
+}
