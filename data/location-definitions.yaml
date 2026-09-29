@@ -1,0 +1,92 @@
+locations:
+  - id: LOC-ITA-001
+    name: Ashgrove Estate
+    region: Italia
+    type: rural_estate
+    languages: [latin, thracian, regional_italian]
+    security_level: 3
+    classification: FICTION
+  - id: LOC-ITA-002
+    name: Capua
+    region: Italia
+    type: city
+    languages: [latin, koine_greek, regional_italian]
+    security_level: 3
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION
+  - id: LOC-ITA-003
+    name: Rome
+    region: Italia
+    type: metropolis
+    languages: [latin, koine_greek, regional_languages]
+    security_level: 4
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION
+  - id: LOC-ITA-004
+    name: Ostia
+    region: Italia
+    type: port_city
+    languages: [latin, koine_greek]
+    security_level: 4
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION
+  - id: LOC-SIC-001
+    name: Syracuse
+    region: Sicilia
+    type: city
+    languages: [koine_greek, latin]
+    security_level: 3
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION
+  - id: LOC-GRA-001
+    name: Athens
+    region: Graecia
+    type: city
+    languages: [koine_greek, latin]
+    security_level: 2
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION
+  - id: LOC-THR-001
+    name: Philippopolis and Thracian frontier
+    region: Thrace
+    type: frontier_region
+    languages: [thracian_research_required, koine_greek, latin]
+    security_level: 4
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION
+  - id: LOC-ASI-001
+    name: Ephesus
+    region: Asia_Minor
+    type: city
+    languages: [koine_greek, latin]
+    security_level: 3
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION
+  - id: LOC-SYR-001
+    name: Antioch and caravan routes
+    region: Syria
+    type: city_and_routes
+    languages: [western_aramaic, koine_greek, latin]
+    security_level: 4
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION
+  - id: LOC-AEG-001
+    name: Alexandria
+    region: Aegyptus
+    type: port_city
+    languages: [koine_greek, egyptian, latin]
+    security_level: 4
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION
+  - id: LOC-AFR-001
+    name: Carthage
+    region: Africa_Proconsularis
+    type: port_city
+    languages: [latin, punic, koine_greek]
+    security_level: 3
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION
+  - id: LOC-HIS-001
+    name: Corduba and Baetican mines
+    region: Hispania
+    type: mining_region
+    languages: [latin, iberian_research_required]
+    security_level: 4
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION
+  - id: LOC-GAL-001
+    name: Massilia and Rhône routes
+    region: Gallia_Narbonensis
+    type: port_and_river_routes
+    languages: [latin, koine_greek, celtic_research_required]
+    security_level: 3
+    classification: FACT_RECONSTRUCTED_GAMEPLAY_ABSTRACTION

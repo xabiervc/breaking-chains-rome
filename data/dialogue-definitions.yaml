@@ -1,0 +1,15 @@
+dialogue_scenes:
+  - id: SCENE-ITA-001
+    title: First Bell at Ashgrove
+    mission: ACT-ROME-001
+    speakers: [CHAR-001, CHAR-014, CHAR-015]
+    voice_languages: [latin, thracian_research_required]
+    translation_mode: subtitle_metadata_only
+    historical_review: required
+  - id: SCENE-ITA-002
+    title: The Sale Yard
+    mission: ACT-ROME-004
+    speakers: [CHAR-001, CHAR-002, CHAR-003]
+    voice_languages: [latin, thracian_research_required]
+    translation_mode: subtitle_metadata_only
+    historical_review: required

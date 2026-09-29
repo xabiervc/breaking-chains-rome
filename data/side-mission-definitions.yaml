@@ -1,0 +1,46 @@
+side_missions:
+  - id: SIDE-ITA-001
+    title: The Missing Bell
+    region: Italia
+    prerequisite: ACT-ROME-001
+    classification: FICTION
+  - id: SIDE-ITA-002
+    title: Nera's Herbs
+    region: Italia
+    prerequisite: ACT-ROME-001
+    classification: FICTION
+  - id: SIDE-ITA-003
+    title: Silvanus's Debt
+    region: Italia
+    prerequisite: ACT-ROME-005
+    classification: FICTION
+  - id: SIDE-ITA-004
+    title: The Smith's Apprentices
+    region: Italia
+    prerequisite: ACT-ROME-001
+    classification: FICTION
+  - id: SIDE-ITA-005
+    title: The Names on the Wall
+    region: Italia
+    prerequisite: ACT-ROME-003
+    classification: FICTION
+  - id: SIDE-ROM-001
+    title: The Interpreter's Debt
+    region: Italia
+    prerequisite: ACT-ROME-008
+    classification: FICTION
+  - id: SIDE-ROM-002
+    title: The Freedman's Contract
+    region: Italia
+    prerequisite: ACT-ROME-008
+    classification: FICTION
+  - id: SIDE-AEG-001
+    title: The House of Seven Doors
+    region: Aegyptus
+    prerequisite: ACT-ROME-013
+    classification: FICTION
+  - id: SIDE-AEG-002
+    title: The Names of the Sold
+    region: Aegyptus
+    prerequisite: ACT-ROME-020
+    classification: FICTION

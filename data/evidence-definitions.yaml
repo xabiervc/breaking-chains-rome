@@ -1,0 +1,85 @@
+evidence:
+  - id: EVID-OST-001
+    target: FACTION-001
+    category: operational
+    acquired_by: ACT-ROME-010
+    state: verified
+    classification: FICTION
+  - id: EVID-AEG-001
+    target: CHAR-005
+    category: personal_link
+    acquired_by: ACT-ROME-014
+    state: verified
+    classification: FICTION
+  - id: EVID-AEG-002
+    target: CHAR-005
+    category: operational
+    acquired_by: ACT-ROME-020
+    state: verified
+    classification: FICTION
+  - id: EVID-AEG-003
+    target: CHAR-005
+    category: personal_link
+    acquired_by: ACT-ROME-021
+    state: verified
+    classification: FICTION
+  - id: EVID-AEG-004
+    target: CHAR-005
+    category: public_leverage
+    acquired_by: ACT-ROME-022
+    state: verified
+    classification: FICTION
+  - id: EVID-SYR-002
+    target: CHAR-006
+    category: operational
+    acquired_by: ACT-ROME-024
+    state: verified
+    classification: FICTION
+  - id: EVID-SYR-003
+    target: CHAR-006
+    category: personal_link
+    acquired_by: ACT-ROME-025
+    state: verified
+    classification: FICTION
+  - id: EVID-SYR-004
+    target: CHAR-006
+    category: public_leverage
+    acquired_by: ACT-ROME-026
+    state: verified
+    classification: FICTION
+  - id: EVID-THR-002
+    target: CHAR-007
+    category: operational
+    acquired_by: ACT-ROME-028
+    state: verified
+    classification: FICTION
+  - id: EVID-THR-003
+    target: CHAR-007
+    category: personal_link
+    acquired_by: ACT-ROME-029
+    state: verified
+    classification: FICTION
+  - id: EVID-THR-004
+    target: CHAR-007
+    category: public_leverage
+    acquired_by: ACT-ROME-030
+    state: verified
+    classification: FICTION
+  - id: EVID-ROM-002
+    target: CHAR-008
+    category: operational
+    acquired_by: ACT-ROME-032
+    state: verified
+    classification: FICTION
+  - id: EVID-ROM-003
+    target: CHAR-008
+    category: personal_link
+    acquired_by: ACT-ROME-033
+    state: verified
+    classification: FICTION
+  - id: EVID-ROM-004
+    target: CHAR-008
+    category: public_leverage
+    acquired_by: ACT-ROME-034
+    state: verified
+    classification: FICTION
