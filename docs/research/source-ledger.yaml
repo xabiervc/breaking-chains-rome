@@ -1,0 +1,10 @@
+sources:
+  - {id: SRC-001, institution: Springer Nature, title: Slavery in the Roman Empire, url: https://link.springer.com/chapter/10.1007/978-3-031-13260-5_5, supports: [RSL-001], confidence: HIGH}
+  - {id: SRC-002, institution: University of Edinburgh, title: The Roman Slave Community, url: https://www.research.ed.ac.uk/en/projects/the-roman-slave-community-enslaved-life-in-the-ancient-world-brit/, supports: [RSL-002, SEN-001], confidence: HIGH}
+  - {id: SRC-003, institution: Cambridge Museum of Classical Archaeology, title: Roman Urbanism in Italy, url: https://www.jstor.org/content/oa_book_edited/jj.9941113, supports: [URB-001, MAT-001, ART-001], confidence: HIGH}
+  - {id: SRC-004, institution: Dickinson College Commentaries, title: Tacitus Annals 15.38-41, url: https://dcc.dickinson.edu/tacitus-annals/introduction/annals-outline/annals-38-41-outline, supports: [FIRE-001, FIRE-002, FIRE-003], confidence: HIGH}
+  - {id: SRC-005, institution: Bryn Mawr Classical Review, title: The great fire of Rome, url: https://bmcr.brynmawr.edu/2020/2020.07.06/, supports: [FIRE-001, FIRE-002, URB-002], confidence: HIGH}
+  - {id: SRC-006, institution: Stanford, title: ORBIS Stanford Geospatial Network Model, url: https://orbis.stanford.edu/, supports: [TRV-001], confidence: HIGH}
+  - {id: SRC-007, institution: Open Book Publishers, title: Aramaic: Lingua Franca, Koine, or Both?, url: https://books.openbookpublishers.com/10.11647/obp.0463.28.pdf, supports: [LNG-003], confidence: MEDIUM}
+  - {id: SRC-008, institution: Open University, title: Discovering Ancient Greek and Latin, url: https://www.open.edu/openlearn/history-the-arts/discovering-ancient-greek-and-latin/content-section-1.2, supports: [LNG-001], confidence: HIGH}
+  - {id: SRC-009, institution: Claremont Colleges Digital Library, title: Greek language and contacts with Egyptians, url: https://ccdl.claremont.edu/digital/api/collection/cce/id/911/download, supports: [LNG-003], confidence: MEDIUM}

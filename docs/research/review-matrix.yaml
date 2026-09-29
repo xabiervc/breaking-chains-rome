@@ -1,0 +1,9 @@
+reviews:
+  - {topic: roman_slavery, reviewer: historian_of_roman_slavery, status: required, affected_docs: [docs/GDD.md, docs/CHARACTER_BIBLE.md, docs/GAMEPLAY_SYSTEMS.md]}
+  - {topic: roman_urbanism, reviewer: roman_archaeologist, status: required, affected_docs: [docs/WORLD_BIBLE.md, docs/MAP_AND_REGIONS.md, docs/ART_DIRECTION.md]}
+  - {topic: latin_greek, reviewer: classicist_linguist, status: required, affected_docs: [docs/DIALOGUE_AND_LANGUAGES.md, docs/LOCALIZATION_IMPLEMENTATION.md]}
+  - {topic: regional_languages, reviewer: relevant_language_specialists, status: required, affected_docs: [docs/DIALOGUE_AND_LANGUAGES.md]}
+  - {topic: sensitivity, reviewer: sensitivity_readers_and_historian, status: required, affected_docs: [docs/HISTORICAL_SENSITIVITY.md, docs/SLAVERY_REPRESENTATION_GUIDELINES.md]}
+  - {topic: accessibility, reviewer: accessibility_specialist_and_disabled_playtesters, status: recommended, affected_docs: [docs/UI_UX_SPECIFICATION.md, docs/AUDIO_AND_MUSIC.md]}
+  - {topic: art, reviewer: art_director_and_archaeologist, status: required, affected_docs: [docs/ART_DIRECTION.md, docs/ASSET_GENERATION_SPEC.md]}
+  - {topic: audio, reviewer: audio_director_musicologist_and_language_consultants, status: recommended, affected_docs: [docs/AUDIO_AND_MUSIC.md, docs/DIALOGUE_AND_LANGUAGES.md]}

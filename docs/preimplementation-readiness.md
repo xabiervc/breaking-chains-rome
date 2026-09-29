@@ -1,31 +1,34 @@
 # Preimplementation Readiness
 
-## Status vocabulary
+## Status
 
-- Specified: approved design documentation exists.
-- Structured: validated YAML/JSON with stable IDs exists.
-- Generated: source files or assets exist.
-- Executed: validators or tests have run.
-- Compiled: the locked Unreal project builds.
-- Verified: a qualified reviewer has inspected the result.
+Documentation and structured preimplementation package: READY FOR EXECUTION AND EXTERNAL REVIEW.
 
-## Current status
+Validation, compilation, runtime testing, performance testing, and specialist review: PENDING.
 
-- Narrative canon: specified and continuity-audited.
-- Main missions 001–042: specified and structured.
-- Supporting characters 001–026: structured.
-- Evidence, routes, evacuation, and fire decisions: specified and structured.
-- Schemas: expanded for remaining canonical entity types.
-- Fixtures and Python tests: expanded; execution pending local/CI run.
-- Unreal project: not generated.
-- C++/Blueprint runtime: not generated.
-- Historical, linguistic, sensitivity, and hardware reviews: not verified.
+## Included
 
-## Remaining preimplementation gates
+- Research Bible with FACT, RECONSTRUCTION, FICTION, and OPEN QUESTION labels.
+- Source ledger and confidence ratings.
+- Region and mission impact mapping.
+- GDD change recommendations.
+- Professional-review matrix.
+- Historical sensitivity guidance.
+- Accessibility requirements.
+- Art direction and audio review requirements.
+- Canon change log.
 
-1. Run `python tools/validate_master.py`.
-2. Run `python -m unittest discover -s tests -v`.
-3. Fix any failures and commit the generated reports.
-4. Lock exact Unreal Engine version, target hardware, and performance budget.
-5. Complete historical, linguistic, sensitivity, and asset-provenance reviews.
-6. Generate and compile the Unreal project.
+## Required before implementation lock
+
+1. Run repository validators and unit tests.
+2. Resolve failed schema, ID, reference, and route checks.
+3. Install and verify declared Python dependencies.
+4. Run GitHub Actions and archive artifacts.
+5. Build a minimal Unreal project and compile the C++ skeleton.
+6. Validate data loading and deterministic route/fire behavior.
+7. Conduct historian, archaeologist, linguist, sensitivity, accessibility, art, and audio reviews.
+8. Update this file with commit SHA, test results, build result, and reviewer sign-offs.
+
+## Definition of done
+
+Preimplementation reaches 100% only when documentation, validation, build, runtime smoke tests, and required specialist sign-offs are all complete. This commit records remaining gates instead of claiming they are complete.
