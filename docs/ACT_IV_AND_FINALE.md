@@ -10,24 +10,15 @@ Act IV begins only after ACT-ROME-023, ACT-ROME-027, ACT-ROME-031, and ACT-ROME-
 
 ## Specialist roster
 
-The complete operation requires six specialists:
-
-1. Livia — medical triage, textile codes, healer network.
-2. Nicanor — locks, water channels, firebreak engineering.
-3. Tertia — courier coordination and identity papers.
-4. Bato — defensive evacuation and veteran discipline.
-5. Eirene — civilian shelters and Subura logistics.
-6. Publius Caecilius — fire-watch routes, fountains, and watch rotations.
-
-Optional side content improves supplies and survival capacity but never changes the roster's identities or the final ignition date.
+The complete operation requires six specialists: Livia, Nicanor, Tertia, Bato, Eirene, and Publius Caecilius.
 
 ## Final mission phases
 
 1. Ignition at the Tiber warehouse.
-2. Liberation of the detention compound.
+2. Liberation of the detention compound through mandatory EVAC-001.
 3. Archive confrontation beneath the Circus Maximus.
 4. Escape through the Cloaca Maxima and the Tiber route.
 
 ## Canonical outcome
 
-Dama initiates the fictional first ignition, the network archive is destroyed, Vindex Varro dies, 40 captives are escorted through the fixed evacuation route, and Dama survives. Roman slavery continues after the epilogue.
+Dama initiates the fictional first ignition, the network archive is destroyed, Vindex Varro dies, 40 captives are escorted through EVAC-001, and Dama survives. Roman slavery continues after the epilogue.

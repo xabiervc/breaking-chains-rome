@@ -1,45 +1,22 @@
 # Fire and Evacuation System
 
-## Design principle
+## Authority
 
-The fire is a deterministic narrative simulation. It must appear dynamic while producing the same critical events for the same preparation state and inputs.
-
-## Fire-zone states
-
-Each zone has one state: `unlit`, `ignition_ready`, `burning`, `blocked`, `evacuated`, `collapsed`, or `safe`.
-
-## Fixed inputs
-
-- Zone ID.
-- Ignition timestamp.
-- Wind direction and intensity for 18 July AD 64.
-- Building density.
-- Combustibility class.
-- Street width.
-- Water access.
-- Firebreak status.
-- Civilian density.
-- Evacuation route state.
-
-## Propagation rule
-
-A zone can transition from `ignition_ready` to `burning` only when its prerequisite zone is burning and its threshold is met. Thresholds are stored in `data/fire-zones.yaml`. No critical zone transition uses uncontrolled randomness.
+The canonical fire state is defined only by `data/fire-zones.yaml`, `data/fire-transitions.yaml`, and the fixed final-state rules.
 
 ## Evacuation tiers
 
-- Tier 0: no preparation; civilian movement is blocked.
-- Tier 1: warning network; one route opens.
-- Tier 2: shelters and supplies; two routes open.
-- Tier 3: complete specialist preparation; three routes open and medical triage functions.
+- Tier 0: EVAC-001 is available for the mandatory rescue route; optional civilian survival is 80.
+- Tier 1: EVAC-001 plus warning support; optional civilian survival is 140.
+- Tier 2: EVAC-001 and EVAC-002; optional civilian survival is 220.
+- Tier 3: EVAC-001, EVAC-002, and EVAC-003; optional civilian survival is 320.
 
-The canonical campaign can always complete the final mission, but preparation changes the number of non-named civilians who reach safety. Named specialists cannot die through random simulation.
+The required 40-captive rescue is possible at all tiers. Tier 0 does not mean zero evacuation; it means no optional capacity preparation.
 
-## Fixed civilian outcomes
+## Fire transitions
 
-- 40 captives are rescued during the main objective.
-- Additional civilians survive according to evacuation tier: 80 at Tier 0, 140 at Tier 1, 220 at Tier 2, 320 at Tier 3.
-- Dama, Livia, Nicanor, Tertia, Bato, Eirene, and Publius survive the canonical ending.
+The transition table is deterministic and uses the final mission state, route flags, rescue-packet state, and archive state. Optional zones never block the canonical archive confrontation or mandatory rescue.
 
-## Safety rules
+## Safety invariant
 
-The game does not reward burning civilian homes. The player receives a mission failure state if they deliberately ignite a zone before its evacuation prerequisite is met. Reloading restores the previous deterministic fire state.
+The game never rewards deliberately burning civilian homes. Any attempted ignition before ACT-ROME-042 or before EVAC-001 verification enters a fixed failure state.

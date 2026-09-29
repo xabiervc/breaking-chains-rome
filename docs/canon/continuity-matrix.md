@@ -8,7 +8,7 @@
 | AD 54 summer | Dama copies the transfer marks. | ACT-ROME-002 |
 | AD 54 late summer, seven days before sale | Dama and Livia create the textile cipher. | ACT-ROME-003 |
 | AD 54 late summer, sale day | Livia is transferred toward Alexandria. | ACT-ROME-004 |
-| AD 54 autumn–AD 55 winter | Dama prepares under surveillance and maintains the cipher. | Interstitial authored period |
+| AD 54 autumn–AD 55 winter | Dama prepares under surveillance and maintains the cipher. | `act1_interstitial_complete` |
 | AD 55 winter | Dama, Nera, Silvanus, and Otho escape. | ACT-ROME-005 |
 | AD 55 winter, two days later | The group reaches Alban Hills Refuge; Vara dies. | ACT-ROME-006 |
 | AD 55 spring | Dama returns, kills Herennius, and destroys the register. | ACT-ROME-007 |
@@ -19,40 +19,16 @@
 | AD 64 July 18 | The Great Fire operation. | ACT-ROME-042 |
 | AD 64 August onward | Epilogue and dispersal. | ACT-ROME-042 completion |
 
-## Character invariants
-
-- Dama is 29 at campaign start and survives.
-- Livia is 23 at campaign start, is transferred toward Alexandria, reunites with Dama in ACT-ROME-014, remains in Alexandria during ACT-ROME-015, and survives.
-- Vara dies only in ACT-ROME-006.
-- Herennius dies only in ACT-ROME-007.
-- Vindex dies only in ACT-ROME-042.
-- Aulus is arrested in ACT-ROME-023.
-- Crispus is recalled in ACT-ROME-027.
-- Drusus is captured in ACT-ROME-031.
-- Fabius escapes conviction in ACT-ROME-035.
-
-## Geography invariants
-
-- Ashgrove Estate: `LOC-ITA-001`.
-- Capua: `LOC-ITA-002`.
-- Rome: `LOC-ITA-003`.
-- Ostia: `LOC-ITA-004`.
-- Alban Hills Refuge: `LOC-ITA-005`.
-- ACT-ROME-006 uses `LOC-ITA-005`.
-- ACT-ROME-007 begins at `LOC-ITA-005` and returns to `LOC-ITA-001`.
-
 ## Evidence invariants
 
-- ACT-ROME-010 creates `EVID-OST-001`.
-- ACT-ROME-014 creates `EVID-AEG-001`.
-- ACT-ROME-018 creates `EVID-HIS-001`.
-- Each Act III target requires operational, personal-link, and public-leverage evidence.
-- ACT-ROME-040 copies the final rescue packet before ACT-ROME-042 destroys the archive.
+- EVID-OST-001: ACT-ROME-010.
+- EVID-AEG-001: ACT-ROME-014.
+- EVID-HIS-001: ACT-ROME-018, optional supporting evidence.
+- Each Act III target requires exactly three dossier categories.
 
 ## Final invariants
 
 - Final mission date: 18 July AD 64.
-- Mandatory rescues: exactly 40.
-- Dama and all six specialists survive.
-- The fictional network is destroyed; Roman slavery continues.
-- Dama is not historically identified in the public record.
+- Mandatory rescue count: exactly 40.
+- EVAC-001 is always available after ACT-ROME-036.
+- Roman slavery continues after the fictional regional victory.

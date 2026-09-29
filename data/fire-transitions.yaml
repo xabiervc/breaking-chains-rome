@@ -1,43 +1,8 @@
 fire_transitions:
-  - id: FIRE-TRANS-001
-    from: ignition_ready
-    to: burning
-    zone: FIRE-ZONE-001
-    time: AD64-07-18T21:10
-    requirements: [evacuation.route_1_open]
-  - id: FIRE-TRANS-002
-    from: unlit
-    to: burning
-    zone: FIRE-ZONE-002
-    time: AD64-07-18T21:18
-    requirements: [FIRE-ZONE-001.burning]
-  - id: FIRE-TRANS-003
-    from: ignition_ready
-    to: burning
-    zone: FIRE-ZONE-003
-    time: AD64-07-18T21:24
-    requirements: [evacuation.route_2_open]
-  - id: FIRE-TRANS-004
-    from: unlit
-    to: burning
-    zone: FIRE-ZONE-004
-    time: AD64-07-18T21:32
-    requirements: [FIRE-ZONE-002.burning, FIRE-ZONE-003.burning]
-  - id: FIRE-TRANS-005
-    from: safe
-    to: safe
-    zone: FIRE-ZONE-005
-    time: AD64-07-18T21:32
-    requirements: [evacuation.route_3_open]
-  - id: FIRE-TRANS-006
-    from: burning
-    to: evacuated
-    zone: FIRE-ZONE-004
-    time: AD64-07-18T21:55
-    requirements: [rescue_packet_copied]
-  - id: FIRE-TRANS-007
-    from: burning
-    to: collapsed
-    zone: FIRE-ZONE-004
-    time: AD64-07-18T22:10
-    requirements: [archive_destroyed]
+  - {id: FIRE-TRANS-001, from: ignition_ready, to: burning, zone: FIRE-ZONE-001, time: AD64-07-18T21:10, requirements: [final_mission_started, evacuation.route_1_open]}
+  - {id: FIRE-TRANS-002, from: unlit, to: burning, zone: FIRE-ZONE-002, time: AD64-07-18T21:18, requirements: [FIRE-ZONE-001.burning]}
+  - {id: FIRE-TRANS-003, from: unlit, to: burning, zone: FIRE-ZONE-003, time: AD64-07-18T21:24, requirements: [FIRE-ZONE-001.burning, evacuation.route_2_open]}
+  - {id: FIRE-TRANS-004, from: unlit, to: burning, zone: FIRE-ZONE-004, time: AD64-07-18T21:32, requirements: [FIRE-ZONE-002.burning, rescue_packet_copied]}
+  - {id: FIRE-TRANS-005, from: safe, to: safe, zone: FIRE-ZONE-005, time: AD64-07-18T21:32, requirements: [evacuation.route_3_open]}
+  - {id: FIRE-TRANS-006, from: burning, to: evacuated, zone: FIRE-ZONE-004, time: AD64-07-18T21:55, requirements: [rescue_packet_copied]}
+  - {id: FIRE-TRANS-007, from: burning, to: collapsed, zone: FIRE-ZONE-004, time: AD64-07-18T22:10, requirements: [archive_destroyed]}

@@ -13,3 +13,4 @@ evidence:
   - {id: EVID-ROM-002, target: CHAR-008, category: operational, acquired_by: ACT-ROME-032, state: verified, classification: FICTION}
   - {id: EVID-ROM-003, target: CHAR-008, category: personal_link, acquired_by: ACT-ROME-033, state: verified, classification: FICTION}
   - {id: EVID-ROM-004, target: CHAR-008, category: public_leverage, acquired_by: ACT-ROME-034, state: verified, classification: FICTION}
+  - {id: EVID-HIS-001, target: FACTION-001, category: optional_support, acquired_by: ACT-ROME-018, state: verified, classification: FICTION}

@@ -1,31 +1,13 @@
 campaign_state:
-  version: 1
-  fixed_canon:
-    title: Breaking Chains: Rome
-    campaign_start: AD54
-    campaign_end: AD64-07-18
-    final_mission: ACT-ROME-042
+  version: 2
+  canonical_final_mission: ACT-ROME-042
+  canonical_final_date: AD64-07-18
+  flags:
+    act1_interstitial_complete: false
+    final_mission_started: false
+    rescue_packet_copied: false
+    archive_destroyed: false
+  persisted_domains: [completed_missions, flags, discovered_routes, evidence_states, faction_states, rescued_people, inventory, language_levels, specialist_status, fire_zone_states, evacuation_tier, permanent_world_changes]
+  invariants:
+    mandatory_rescue_count: 40
     roman_slavery_ended: false
-  persisted_domains:
-    completed_missions: list[mission_id]
-    failed_attempts: map[mission_id, integer]
-    discovered_routes: list[route_id]
-    discovered_locations: list[location_id]
-    evidence_states: map[evidence_id, evidence_state]
-    faction_states: map[faction_id, faction_state]
-    reputation: map[faction_id, integer]
-    rescued_people: list[rescue_record]
-    inventory: map[resource_id, integer]
-    language_levels: map[language_id, integer]
-    ability_flags: list[ability_id]
-    specialist_status: map[character_id, string]
-    fire_zone_states: map[fire_zone_id, fire_zone_state]
-    evacuation_tier: integer
-    permanent_world_changes: list[world_change_id]
-  persistence_rules:
-    completed_missions: immutable_after_success
-    named_character_status: immutable_after_canonical_transition
-    fire_zone_states: immutable_after_transition
-    rescued_people: append_only_after_destination_assignment
-    rewards: idempotent_by_mission_id
-    random_cosmetic_seed: reproducible_by_save_and_version
