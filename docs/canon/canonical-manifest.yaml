@@ -1,11 +1,7 @@
-manifest_version: 1
+manifest_version: 2
 project: Breaking Chains: Rome
 canonical_sources:
-  narrative:
-    - docs/canon/continuity-matrix.md
-    - docs/canon/id-registry.md
-    - docs/story/timeline.md
-    - docs/GDD.md
+  narrative: [GDD.md, docs/canon/continuity-matrix.md, docs/canon/id-registry.md, docs/story/timeline.md]
   missions:
     - docs/missions/ACT-ROME-001.md
     - docs/missions/ACT-ROME-002.md
@@ -49,19 +45,6 @@ canonical_sources:
     - docs/missions/ACT-ROME-040.md
     - docs/missions/ACT-ROME-041.md
     - docs/missions/ACT-ROME-042.md
-  structured_runtime:
-    - data/mission-definitions.yaml
-    - data/character-definitions.yaml
-    - data/location-definitions.yaml
-    - data/evidence-definitions.yaml
-    - data/route-definitions.yaml
-    - data/faction-definitions.yaml
-    - data/side-mission-definitions.yaml
-    - data/dialogue-definitions.yaml
-  implementation_contracts:
-    - docs/DETERMINISM_SPECIFICATION.md
-    - docs/SAVE_AND_VERSIONING.md
-    - docs/UE5_ARCHITECTURE.md
-    - docs/CPP_BLUEPRINT_BOUNDARIES.md
-canonical_exclusions:
-  - data/legacy/
+  structured_runtime: [data/mission-definitions.yaml, data/character-definitions.yaml, data/location-definitions.yaml, data/evidence-definitions.yaml, data/route-definitions.yaml, data/faction-definitions.yaml, data/side-mission-definitions.yaml, data/dialogue-definitions.yaml]
+  implementation_contracts: [docs/DETERMINISM_SPECIFICATION.md, docs/SAVE_AND_VERSIONING.md, docs/UE5_ARCHITECTURE.md, docs/CPP_BLUEPRINT_BOUNDARIES.md]
+canonical_exclusions: [data/legacy/, data/characters.yaml, data/locations.yaml, data/missions.yaml, data/routes.yaml, data/languages.yaml, data/factions.yaml, data/act4-state.yaml, data/campaign-state.yaml, data/epilogue-state.yaml, data/evacuation-routes.yaml, data/fire-transitions.yaml, data/fire-zones.yaml, data/specialists.yaml]

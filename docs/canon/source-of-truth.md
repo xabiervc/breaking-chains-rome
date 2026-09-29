@@ -1,38 +1,9 @@
-# Canonical Source Hierarchy
+# Canonical source hierarchy
 
-## Purpose
+This is a preimplementation specification, not validated runtime content. `data/mission-definitions.yaml` contains all 42 main missions. `data/*-definitions.yaml` is the structured source; individual `docs/missions/ACT-ROME-###.md` files describe authored intent. `docs/canon/continuity-matrix.md` records narrative constraints. If these disagree, stop implementation and fix all affected files together; no silent precedence resolves a contradiction.
 
-This document defines which files are authoritative and prevents contradictory duplicate data from being consumed by an LLM or runtime.
+Only files enumerated in `docs/canon/canonical-manifest.yaml` may be used as canonical input. The legacy folder contains warnings rather than original snapshots. Older duplicate YAML files still exist at the root of `data/`; they are not in the manifest and must not be imported. Their removal or archival requires a separately reviewed deletion/migration action.
 
-## Authority order
+The Act I interstitial transition is `act1_interstitial_complete`, a campaign-state flag set by the authored time-passage sequence after ACT-ROME-004. It is not a mission ID. The YAML `prerequisites` field contains mission IDs only; `required_flags` contains campaign flags.
 
-1. `docs/canon/continuity-matrix.md` — immutable narrative invariants.
-2. `docs/canon/id-registry.md` — stable identity registry.
-3. `docs/story/timeline.md` — canonical chronology.
-4. `docs/missions/ACT-ROME-###.md` — individual mission intent and authored narrative detail.
-5. `data/*-definitions.yaml` — canonical structured runtime content.
-6. `docs/*.md` system documents — design rules and implementation contracts.
-7. `data/legacy/` — historical snapshots only; never runtime input.
-
-## Conflict rule
-
-If two canonical sources conflict, the conflict blocks implementation. Do not choose silently. Record the conflict in `docs/canon/change-log.md`, resolve it explicitly, then update all affected canonical sources in the same commit.
-
-## Runtime input rule
-
-Only files explicitly marked canonical in `docs/canon/canonical-manifest.yaml` may be imported into Unreal Data Assets or Data Tables. Files under `data/legacy/` must never be imported.
-
-## Structured-data rule
-
-The canonical runtime definitions are:
-
-- `data/mission-definitions.yaml`.
-- `data/character-definitions.yaml`.
-- `data/location-definitions.yaml`.
-- `data/evidence-definitions.yaml`.
-- `data/route-definitions.yaml`.
-- `data/faction-definitions.yaml`.
-- `data/side-mission-definitions.yaml`.
-- `data/dialogue-definitions.yaml`.
-
-Act IV and final-state definitions remain canonical only where listed in the manifest. Duplicate files elsewhere are legacy until migrated.
+`GDD.md` is the root master GDD; there is no `docs/GDD.md`. Validate the manifest path before building any importer. Existing Act IV state files are excluded from runtime import pending resolution of their contradictory evacuation rules.

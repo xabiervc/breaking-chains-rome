@@ -1,134 +1,43 @@
 missions:
-  - id: ACT-ROME-001
-    title: The Bell Before Dawn
-    act: 1
-    date: AD54-spring
-    prerequisites: []
-    locations: [LOC-ITA-001]
-    classification: FICTION
-  - id: ACT-ROME-002
-    title: The Ledger Room
-    act: 1
-    date: AD54-summer
-    prerequisites: [ACT-ROME-001]
-    locations: [LOC-ITA-001]
-    classification: FICTION
-  - id: ACT-ROME-003
-    title: Thread and Ash
-    act: 1
-    date: AD54-late-summer-seven-days-before-sale
-    prerequisites: [ACT-ROME-002]
-    locations: [LOC-ITA-001]
-    classification: FICTION
-  - id: ACT-ROME-004
-    title: The Auction Wagon
-    act: 1
-    date: AD54-late-summer-sale-day
-    prerequisites: [ACT-ROME-003]
-    locations: [LOC-ITA-001]
-    classification: FICTION
-  - id: ACT-ROME-005
-    title: The Broken Axle
-    act: 1
-    date: AD55-winter
-    prerequisites: [ACT-ROME-004, INTERSTITIAL-ACT1-PREPARATION]
-    locations: [LOC-ITA-001]
-    classification: FICTION
-  - id: ACT-ROME-006
-    title: Ash in the Hills
-    act: 1
-    date: AD55-winter-two-days-after-escape
-    prerequisites: [ACT-ROME-005]
-    locations: [LOC-ITA-005]
-    classification: FICTION
-  - id: ACT-ROME-007
-    title: The Overseer's Road
-    act: 1
-    date: AD55-spring
-    prerequisites: [ACT-ROME-006]
-    locations: [LOC-ITA-005, LOC-ITA-001]
-    classification: FICTION
-  - id: ACT-ROME-008
-    title: A City of Masks
-    act: 2
-    date: AD56-spring
-    prerequisites: [ACT-ROME-007]
-    locations: [LOC-ITA-003]
-    classification: FICTION
-  - id: ACT-ROME-009
-    title: The Ludus Below
-    act: 2
-    date: AD56-summer
-    prerequisites: [ACT-ROME-008]
-    locations: [LOC-ITA-002]
-    classification: FICTION
-  - id: ACT-ROME-010
-    title: Salt on the Tiber
-    act: 2
-    date: AD56-autumn
-    prerequisites: [ACT-ROME-009]
-    locations: [LOC-ITA-004]
-    classification: FICTION
-  - id: ACT-ROME-011
-    title: The Grain Road
-    act: 2
-    date: AD57-spring
-    prerequisites: [ACT-ROME-010]
-    locations: [LOC-ITA-001]
-    classification: FICTION
-  - id: ACT-ROME-012
-    title: Island of Debts
-    act: 2
-    date: AD58-summer
-    prerequisites: [ACT-ROME-011]
-    locations: [LOC-SIC-001]
-    classification: FICTION
-  - id: ACT-ROME-013
-    title: Alexandria of Many Tongues
-    act: 2
-    date: AD59-spring
-    prerequisites: [ACT-ROME-012]
-    locations: [LOC-AEG-001]
-    classification: FICTION
-  - id: ACT-ROME-014
-    title: The Textile Cipher
-    act: 2
-    date: AD59-summer
-    prerequisites: [ACT-ROME-013]
-    locations: [LOC-AEG-001]
-    classification: FICTION
-  - id: ACT-ROME-015
-    title: The Harbor Without Chains
-    act: 2
-    date: AD59-autumn
-    prerequisites: [ACT-ROME-014]
-    locations: [LOC-AEG-001]
-    classification: FICTION
-  - id: ACT-ROME-016
-    title: The Governor's Shadow
-    act: 2
-    date: AD60-spring
-    prerequisites: [ACT-ROME-015]
-    locations: [LOC-SYR-001]
-    classification: FICTION
-  - id: ACT-ROME-017
-    title: The Army's Empty Purse
-    act: 2
-    date: AD61-spring
-    prerequisites: [ACT-ROME-016]
-    locations: [LOC-THR-001]
-    classification: FICTION
-  - id: ACT-ROME-018
-    title: The Mine Road
-    act: 2
-    date: AD62-summer
-    prerequisites: [ACT-ROME-017]
-    locations: [LOC-HIS-001]
-    classification: FICTION
-  - id: ACT-ROME-019
-    title: The Four Seals
-    act: 2
-    date: AD62-winter
-    prerequisites: [ACT-ROME-018]
-    locations: [LOC-GAL-001]
-    classification: FICTION
+  - {id: ACT-ROME-001, title: The Bell Before Dawn, act: 1, date: AD54-spring, prerequisites: [], locations: [LOC-ITA-001], classification: FICTION}
+  - {id: ACT-ROME-002, title: The Ledger Room, act: 1, date: AD54-summer, prerequisites: [ACT-ROME-001], locations: [LOC-ITA-001], classification: FICTION}
+  - {id: ACT-ROME-003, title: Thread and Ash, act: 1, date: AD54-late-summer-seven-days-before-sale, prerequisites: [ACT-ROME-002], locations: [LOC-ITA-001], classification: FICTION}
+  - {id: ACT-ROME-004, title: The Auction Wagon, act: 1, date: AD54-late-summer-sale-day, prerequisites: [ACT-ROME-003], locations: [LOC-ITA-001], classification: FICTION}
+  - {id: ACT-ROME-005, title: The Broken Axle, act: 1, date: AD55-winter, prerequisites: [ACT-ROME-004], required_flags: [act1_interstitial_complete], locations: [LOC-ITA-001], classification: FICTION}
+  - {id: ACT-ROME-006, title: Ash in the Hills, act: 1, date: AD55-winter-two-days-after-escape, prerequisites: [ACT-ROME-005], locations: [LOC-ITA-005], classification: FICTION}
+  - {id: ACT-ROME-007, title: The Overseer's Road, act: 1, date: AD55-spring, prerequisites: [ACT-ROME-006], locations: [LOC-ITA-005, LOC-ITA-001], classification: FICTION}
+  - {id: ACT-ROME-008, title: A City of Masks, act: 2, date: AD56-spring, prerequisites: [ACT-ROME-007], locations: [LOC-ITA-003], classification: FICTION}
+  - {id: ACT-ROME-009, title: The Ludus Below, act: 2, date: AD56-summer, prerequisites: [ACT-ROME-008], locations: [LOC-ITA-002], classification: FICTION}
+  - {id: ACT-ROME-010, title: Salt on the Tiber, act: 2, date: AD56-autumn, prerequisites: [ACT-ROME-009], locations: [LOC-ITA-004], classification: FICTION}
+  - {id: ACT-ROME-011, title: The Grain Road, act: 2, date: AD57-spring, prerequisites: [ACT-ROME-010], locations: [LOC-ITA-001], classification: FICTION}
+  - {id: ACT-ROME-012, title: Island of Debts, act: 2, date: AD58-summer, prerequisites: [ACT-ROME-011], locations: [LOC-SIC-001], classification: FICTION}
+  - {id: ACT-ROME-013, title: Alexandria of Many Tongues, act: 2, date: AD59-spring, prerequisites: [ACT-ROME-012], locations: [LOC-AEG-001], classification: FICTION}
+  - {id: ACT-ROME-014, title: The Textile Cipher, act: 2, date: AD59-summer, prerequisites: [ACT-ROME-013], locations: [LOC-AEG-001], classification: FICTION}
+  - {id: ACT-ROME-015, title: The Harbor Without Chains, act: 2, date: AD59-autumn, prerequisites: [ACT-ROME-014], locations: [LOC-AEG-001], classification: FICTION}
+  - {id: ACT-ROME-016, title: The Governor's Shadow, act: 2, date: AD60-spring, prerequisites: [ACT-ROME-015], locations: [LOC-SYR-001], classification: FICTION}
+  - {id: ACT-ROME-017, title: The Army's Empty Purse, act: 2, date: AD61-spring, prerequisites: [ACT-ROME-016], locations: [LOC-THR-001], classification: FICTION}
+  - {id: ACT-ROME-018, title: The Mine Road, act: 2, date: AD62-summer, prerequisites: [ACT-ROME-017], locations: [LOC-HIS-001], classification: FICTION}
+  - {id: ACT-ROME-019, title: The Four Seals, act: 2, date: AD62-winter, prerequisites: [ACT-ROME-018], locations: [LOC-GAL-001], classification: FICTION}
+  - {id: ACT-ROME-020, title: The Port Books, act: 3, date: AD63-spring, prerequisites: [ACT-ROME-019], locations: [LOC-AEG-001], classification: FICTION}
+  - {id: ACT-ROME-021, title: The Grain Diversion, act: 3, date: AD63-summer, prerequisites: [ACT-ROME-020], locations: [LOC-AEG-001], classification: FICTION}
+  - {id: ACT-ROME-022, title: The Engineer's Measure, act: 3, date: AD63-autumn, prerequisites: [ACT-ROME-021], locations: [LOC-AEG-001], classification: FICTION}
+  - {id: ACT-ROME-023, title: The Harbor Opens, act: 3, date: AD63-winter, prerequisites: [ACT-ROME-022], locations: [LOC-AEG-001], classification: FICTION}
+  - {id: ACT-ROME-024, title: The Court of Debts, act: 3, date: AD63-spring, prerequisites: [ACT-ROME-019], locations: [LOC-SYR-001], classification: FICTION}
+  - {id: ACT-ROME-025, title: The Caravan Witness, act: 3, date: AD63-summer, prerequisites: [ACT-ROME-024], locations: [LOC-SYR-001], classification: FICTION}
+  - {id: ACT-ROME-026, title: Letters to Rome, act: 3, date: AD63-autumn, prerequisites: [ACT-ROME-025], locations: [LOC-SYR-001], classification: FICTION}
+  - {id: ACT-ROME-027, title: The Governor Falls, act: 3, date: AD63-winter, prerequisites: [ACT-ROME-026], locations: [LOC-SYR-001], classification: FICTION}
+  - {id: ACT-ROME-028, title: The Pay Chest, act: 3, date: AD63-spring, prerequisites: [ACT-ROME-019], locations: [LOC-THR-001], classification: FICTION}
+  - {id: ACT-ROME-029, title: The Veteran's Oath, act: 3, date: AD63-summer, prerequisites: [ACT-ROME-028], locations: [LOC-THR-001], classification: FICTION}
+  - {id: ACT-ROME-030, title: The Broken Standard, act: 3, date: AD63-autumn, prerequisites: [ACT-ROME-029], locations: [LOC-THR-001], classification: FICTION}
+  - {id: ACT-ROME-031, title: The Mutiny at Philippopolis, act: 3, date: AD63-winter, prerequisites: [ACT-ROME-030], locations: [LOC-THR-001], classification: FICTION}
+  - {id: ACT-ROME-032, title: The Senator's Clients, act: 3, date: AD63-spring, prerequisites: [ACT-ROME-019], locations: [LOC-ITA-003], classification: FICTION}
+  - {id: ACT-ROME-033, title: The Empty Witness Box, act: 3, date: AD63-summer, prerequisites: [ACT-ROME-032], locations: [LOC-ITA-003], classification: FICTION}
+  - {id: ACT-ROME-034, title: The Senate's Blind Corner, act: 3, date: AD63-autumn, prerequisites: [ACT-ROME-033], locations: [LOC-ITA-003], classification: FICTION}
+  - {id: ACT-ROME-035, title: A Verdict Without Justice, act: 3, date: AD63-winter, prerequisites: [ACT-ROME-034], locations: [LOC-ITA-003], classification: FICTION}
+  - {id: ACT-ROME-036, title: The City's Thirst, act: 4, date: AD64-january, prerequisites: [ACT-ROME-023, ACT-ROME-027, ACT-ROME-031, ACT-ROME-035], locations: [LOC-ITA-003], classification: FICTION}
+  - {id: ACT-ROME-037, title: Watchmen of the Night, act: 4, date: AD64-february, prerequisites: [ACT-ROME-036], locations: [LOC-ITA-003], classification: FICTION}
+  - {id: ACT-ROME-038, title: Six Hands, act: 4, date: AD64-march-april, prerequisites: [ACT-ROME-037], locations: [LOC-ITA-003], classification: FICTION}
+  - {id: ACT-ROME-039, title: The Evacuation Houses, act: 4, date: AD64-may, prerequisites: [ACT-ROME-038], locations: [LOC-ITA-003, LOC-ITA-004], classification: FICTION}
+  - {id: ACT-ROME-040, title: The Archive Beneath the Circus, act: 4, date: AD64-june, prerequisites: [ACT-ROME-039], locations: [LOC-ITA-003], classification: FICTION}
+  - {id: ACT-ROME-041, title: The Last Inventory, act: 4, date: AD64-july-17, prerequisites: [ACT-ROME-040], locations: [LOC-ITA-003, LOC-ITA-004], classification: FICTION}
+  - {id: ACT-ROME-042, title: The Great Fire, act: 4, date: AD64-july-18, prerequisites: [ACT-ROME-041], locations: [LOC-ITA-003, LOC-ITA-004], classification: FICTION}
