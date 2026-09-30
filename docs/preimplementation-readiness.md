@@ -1,19 +1,28 @@
 # Preimplementation Readiness
 
-## Current verdict
+## Final documentary verdict
 
-Breaking Chains: Rome meets the **documentary Level-A threshold for controlled vertical-slice implementation**, with explicit governance and honest evidence separation.
+Breaking Chains: Rome is **Level A documentary preimplementation, frozen for controlled vertical-slice implementation**. The project has a canonical authority, closed structural decisions, explicit hypotheses, scoped content, operational slice criteria, and an honest validation ledger.
 
-## Closed before implementation
+## Frozen
 
-- Identity, core loop, network systems, campaign arc, character agency, canon, historical/ethical policy, accessibility requirements, technical plans, content scope, operational slice, design traceability, document status, and authority protocol.
-- Closed decisions, prototype hypotheses, accepted risks, and structural blockers are separated in `docs/IMPLEMENTATION_DECISION_REGISTER.md`.
-- `docs/MUST_FIX_BEFORE_IMPLEMENTATION.md` contains no unresolved structural blocker in the current baseline.
+- Identity and core loop.
+- Network variables and resistance model.
+- Campaign frame and narrative state model.
+- Historical/ethical policy.
+- Accessibility requirements.
+- Technical targets and platform priority.
+- Mandatory slice scope and acceptance metrics.
 
-## Conditions for the next gate
+## Deliberately not claimed
 
-The vertical slice remains blocked until execution supplies evidence for CI, runtime systems, build, deterministic tests, accessibility, performance, save recovery, specialist review, and external playtesting. These are validation outputs, not missing identity decisions.
+- Fun, balance, control feel, emotional impact, performance, runtime stability, accessibility effectiveness, specialist approval, or award readiness.
 
-## Honest boundary
+## Next phase
 
-This repository is Level A as a preimplementation design package, not as a finished game, production-ready build, award candidate, or professionally certified historical/accessibility product.
+Do not expand the documentation set by default. Begin the vertical slice using `docs/IMPLEMENTATION_HANDOFF.md`; convert every hypothesis and open risk into evidence, then update the relevant register and tests.
+
+## Confidence
+
+Documentary Level-A confidence: 0.91.
+Finished-game confidence: not estimable before prototype and external validation.

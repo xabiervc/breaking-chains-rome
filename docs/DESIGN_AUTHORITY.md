@@ -2,7 +2,7 @@
 
 ## Frozen baseline
 
-The implementation baseline is the canonical set listed below at commit `78b40fc52d37ec6fbfc52d869f7155bfa718d80d`, extended by this governance commit. No file named FINAL, PREMIUM, COMPLETE, 100, or PHASE overrides it.
+The implementation baseline is the canonical set listed below at commit `78b40fc52d37ec6fbfc52d869f7155bfa718d80d`, extended by the governance commits through this freeze. No file named FINAL, PREMIUM, COMPLETE, 100, or PHASE overrides it.
 
 ## Normative documents by area
 
@@ -12,7 +12,7 @@ The implementation baseline is the canonical set listed below at commit `78b40fc
 - Slice: `docs/VERTICAL_SLICE_OPERATIONAL_SPEC.md`, `docs/DESIGN_TRACEABILITY_MATRIX.md`.
 - Accessibility: `docs/ACCESSIBILITY_REQUIREMENTS.md`, `docs/ACCESSIBILITY_QUALITY_GATE.md`.
 - Technical: `docs/TECHNICAL_ARCHITECTURE.md`, `docs/PLATFORM_MATRIX.md`, `docs/PERFORMANCE_AND_MEMORY_BUDGET.md`, `docs/SAVE_MIGRATION_AND_RECOVERY.md`.
-- Historical and ethical: `docs/research/`, `docs/HISTORICAL_PLAY_POLICY.md`, `docs/HISTORICAL_SENSITIVITY.md`.
+- Historical and ethical: `docs/research/`, `docs/HISTORICAL_PLAY_POLICY.md`, `docs/HISTORICAL_SENSITIVITY.md`, `docs/HISTORICAL_REVIEW_LEDGER.md`.
 
 ## Conflict protocol
 
