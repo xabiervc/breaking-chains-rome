@@ -4,7 +4,7 @@
 
 Documentation and structured preimplementation package: READY FOR EXECUTION AND EXTERNAL REVIEW.
 
-Award-caliber target: defined as an aspirational production quality bar with measurable gates; not a claim of nomination, victory, or external certification.
+Award-caliber target: an aspirational production quality bar with measurable gates; not a claim of nomination, victory, or external certification.
 
 ## Completed in repository
 
@@ -13,19 +13,23 @@ Award-caliber target: defined as an aspirational production quality bar with mea
 - Region and mission impact mapping.
 - GDD change recommendations.
 - Professional-review matrix.
-- Historical sensitivity guidance.
+- Historical sensitivity and representation policy.
+- Resistance-network system and player-cost model.
+- Non-protagonist agency and social-class framework.
 - Accessibility requirements.
 - Art direction and audio review requirements.
 - Canon change log.
 - Award-caliber quality bar, scorecard, gameplay pillars, narrative review, accessibility gate, technical gate, QA plan, and production gates.
+- Independent critical review response with explicit remaining proof requirements.
 
 ## Still pending
 
 - Correct and verify the Conda environment workflow.
 - Run validators, lint, unit tests, and deterministic replay tests.
 - Resolve all schema, ID, reference, route, and chronology failures.
+- Implement and test the resistance-network variables in runtime data and mission logic.
 - Build a minimal Unreal project and compile the C++ skeleton.
-- Validate data loading and deterministic route/fire behavior.
+- Validate data loading and deterministic route/fire/network behavior.
 - Measure target-hardware performance and save/load behavior.
 - Complete historian, archaeologist, linguist, sensitivity, accessibility, art, and audio reviews.
 - Run external playtests and close the resulting findings.

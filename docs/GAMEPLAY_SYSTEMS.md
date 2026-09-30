@@ -1,29 +1,36 @@
 # Gameplay Systems
 
+## Systemic premise
+
+The core game is a resistance-network strategy adventure embedded in character-driven stealth, investigation, negotiation, and escape. “Breaking chains” means increasing durable collective agency under coercion, not maximizing rescues or kills.
+
 ## Core loop
 
-Observe → prepare → travel → infiltrate or negotiate → rescue/sabotage → escape → recover → update the network.
+1. Investigate a threat or opportunity.
+2. Verify information and listen to affected people.
+3. Build or repair trust links.
+4. Allocate supplies, shelter, time, and safe capacity.
+5. Choose quiet extraction, negotiation, sabotage, public disruption, evidence release, or evacuation.
+6. Escape or endure the response.
+7. Rebuild the network and live with consequences.
 
-## Skill trees
+## System variables
 
-Forge, Move, Read, and Lead contain 12 fixed abilities each. Unlock requirements are documented by mission, side mission, trainer, or resource threshold.
+Trust, supplies, exposure, reputation, organization, retaliation, information, and cohesion are separate bounded variables. Each mission changes at least one node, link, cell, or pressure state.
 
-## Stealth
+## Player verbs
 
-Stealth uses visibility, noise, identity, witness, and patrol-state variables. Each variable has a fixed range and documented threshold. Disguise never gives universal immunity; it modifies specific checks.
+Investigate, listen, verify, negotiate, recruit, provision, forge, hide, infiltrate, deceive, sabotage, evacuate, expose, flee, and fight as a last resort.
 
-## Investigation
+## Design rules
 
-Each target has exactly three investigation missions and one resolution mission. Evidence is stored as named records, not abstract progress.
+- At least two viable approaches per rescue mission.
+- No universal correct path.
+- Failure reveals information or changes the network rather than only resetting.
+- People are never inventory, commodities, or score multipliers.
+- A non-protagonist can refuse Dama, initiate a plan, change a variable, leave, or survive without direct control.
+- Every system is taught, used, and mastered across the campaign.
 
-## Resistance hub
+## Vertical slice acceptance
 
-The hub has five upgrade tracks: workshop, clinic, safe houses, courier network, and food stores. Every upgrade has a fixed cost, prerequisite, effect, and persistence rule.
-
-## Rescue ledger
-
-Liberated people require food, shelter, medical care, transport, and protection. The ledger tracks capacity and support consumption. A rescue cannot be counted as complete until a destination is assigned.
-
-## Combat
-
-Combat is grounded and dangerous. Dama uses tools, short blades, improvised weapons, bows where historically and narratively justified, and environmental tactics. He is not a fantasy superhuman.
+A complete investigation-to-rescue-to-escape loop demonstrates at least two viable approaches and three downstream consequences: relational, logistical, and exposure/retaliation. It includes subtitles, speaker labels, remapping, visual sound cues, reduced effects, and failure recovery.
