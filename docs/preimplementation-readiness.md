@@ -4,9 +4,9 @@
 
 Documentation and structured preimplementation package: READY FOR EXECUTION AND EXTERNAL REVIEW.
 
-Validation, compilation, runtime testing, performance testing, and specialist review: PENDING.
+Award-caliber target: defined as an aspirational production quality bar with measurable gates; not a claim of nomination, victory, or external certification.
 
-## Included
+## Completed in repository
 
 - Research Bible with FACT, RECONSTRUCTION, FICTION, and OPEN QUESTION labels.
 - Source ledger and confidence ratings.
@@ -17,18 +17,19 @@ Validation, compilation, runtime testing, performance testing, and specialist re
 - Accessibility requirements.
 - Art direction and audio review requirements.
 - Canon change log.
+- Award-caliber quality bar, scorecard, gameplay pillars, narrative review, accessibility gate, technical gate, QA plan, and production gates.
 
-## Required before implementation lock
+## Still pending
 
-1. Run repository validators and unit tests.
-2. Resolve failed schema, ID, reference, and route checks.
-3. Install and verify declared Python dependencies.
-4. Run GitHub Actions and archive artifacts.
-5. Build a minimal Unreal project and compile the C++ skeleton.
-6. Validate data loading and deterministic route/fire behavior.
-7. Conduct historian, archaeologist, linguist, sensitivity, accessibility, art, and audio reviews.
-8. Update this file with commit SHA, test results, build result, and reviewer sign-offs.
+- Correct and verify the Conda environment workflow.
+- Run validators, lint, unit tests, and deterministic replay tests.
+- Resolve all schema, ID, reference, route, and chronology failures.
+- Build a minimal Unreal project and compile the C++ skeleton.
+- Validate data loading and deterministic route/fire behavior.
+- Measure target-hardware performance and save/load behavior.
+- Complete historian, archaeologist, linguist, sensitivity, accessibility, art, and audio reviews.
+- Run external playtests and close the resulting findings.
 
 ## Definition of done
 
-Preimplementation reaches 100% only when documentation, validation, build, runtime smoke tests, and required specialist sign-offs are all complete. This commit records remaining gates instead of claiming they are complete.
+100% preimplementation requires all documentation, validation, build, runtime smoke tests, performance evidence, external playtest evidence, and required specialist sign-offs. This file must be updated with commit SHAs, workflow results, build results, test summaries, and reviewer sign-offs before claiming completion.
