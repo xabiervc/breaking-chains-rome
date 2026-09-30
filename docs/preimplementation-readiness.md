@@ -2,32 +2,26 @@
 
 ## Current verdict
 
-The repository now has a consolidated documentary design path and an operational vertical-slice contract. This addresses the critic’s final consistency recommendation.
+Breaking Chains: Rome has reached a **Level-A documentary readiness candidate** for controlled vertical-slice implementation. The design is consolidated, traceable, scoped, and operationally specified.
 
-## Canonical closure completed
+This is not a claim that the game is complete, award-nominated, compiled, playtested, or professionally certified.
 
-- Declared a canonical source-of-truth hierarchy.
-- Classified documents as CANONICAL, SUPPORTING, ASPIRATIONAL, ARCHIVED, or GENERATED.
-- Prevented legacy `FINAL`, `PREMIUM`, `COMPLETE`, `100`, and phase documents from silently overriding current design.
-- Added content scope with mandatory, production-foundation, aspirational, and out-of-scope tiers.
-- Added narrative-to-system traceability.
-- Added operational vertical-slice specification with exact scenario, duration, objectives, states, assets, audio, accessibility, metrics, and exit evidence.
-- Added consistency audit and archive policy.
+## Closed documentary gates
 
-## Documentary status
+- Canonical source of truth and document-status policy.
+- Content scope and mandatory/aspirational boundaries.
+- Narrative-to-system traceability.
+- Operational vertical-slice specification.
+- Design traceability matrix.
+- Depth and coherence audit.
+- Personal satisfaction checklist.
+- Open evidence register.
+- Research, ethical, accessibility, technical, save, localization, and QA plans.
 
-100% of the current documentary closure checklist is present. This is not a claim of runtime implementation, CI success, Unreal compilation, target-hardware evidence, specialist sign-off, or external playtest completion.
+## Evidence gates still open
 
-## Implementation blockers
+See `docs/OPEN_EVIDENCE_REGISTER.md`. All entries are intentionally OPEN until execution produces evidence.
 
-- Correct and rerun the Conda workflow after the reported `environment.yml` failure.
-- Run validators, lint, unit tests, and deterministic replay tests.
-- Implement network variables, save fields, choice transitions, and slice mission logic.
-- Build the slice and compile the Unreal skeleton.
-- Capture target-platform performance and save/load measurements.
-- Complete historical, linguistic, sensitivity, accessibility, art, and audio reviews.
-- Conduct external playtests and close or accept findings.
+## Start condition
 
-## Gate rule
-
-Do not start full production until `docs/VERTICAL_SLICE_OPERATIONAL_SPEC.md` passes with attached evidence and the consistency audit has no unresolved blocker.
+Controlled vertical-slice implementation may begin only with a tracked owner for each open evidence item and no unresolved contradiction in the canonical set. Full production remains blocked until the slice exit gate passes.
