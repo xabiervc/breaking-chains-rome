@@ -2,26 +2,18 @@
 
 ## Current verdict
 
-Breaking Chains: Rome has reached a **Level-A documentary readiness candidate** for controlled vertical-slice implementation. The design is consolidated, traceable, scoped, and operationally specified.
+Breaking Chains: Rome meets the **documentary Level-A threshold for controlled vertical-slice implementation**, with explicit governance and honest evidence separation.
 
-This is not a claim that the game is complete, award-nominated, compiled, playtested, or professionally certified.
+## Closed before implementation
 
-## Closed documentary gates
+- Identity, core loop, network systems, campaign arc, character agency, canon, historical/ethical policy, accessibility requirements, technical plans, content scope, operational slice, design traceability, document status, and authority protocol.
+- Closed decisions, prototype hypotheses, accepted risks, and structural blockers are separated in `docs/IMPLEMENTATION_DECISION_REGISTER.md`.
+- `docs/MUST_FIX_BEFORE_IMPLEMENTATION.md` contains no unresolved structural blocker in the current baseline.
 
-- Canonical source of truth and document-status policy.
-- Content scope and mandatory/aspirational boundaries.
-- Narrative-to-system traceability.
-- Operational vertical-slice specification.
-- Design traceability matrix.
-- Depth and coherence audit.
-- Personal satisfaction checklist.
-- Open evidence register.
-- Research, ethical, accessibility, technical, save, localization, and QA plans.
+## Conditions for the next gate
 
-## Evidence gates still open
+The vertical slice remains blocked until execution supplies evidence for CI, runtime systems, build, deterministic tests, accessibility, performance, save recovery, specialist review, and external playtesting. These are validation outputs, not missing identity decisions.
 
-See `docs/OPEN_EVIDENCE_REGISTER.md`. All entries are intentionally OPEN until execution produces evidence.
+## Honest boundary
 
-## Start condition
-
-Controlled vertical-slice implementation may begin only with a tracked owner for each open evidence item and no unresolved contradiction in the canonical set. Full production remains blocked until the slice exit gate passes.
+This repository is Level A as a preimplementation design package, not as a finished game, production-ready build, award candidate, or professionally certified historical/accessibility product.

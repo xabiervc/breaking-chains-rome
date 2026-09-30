@@ -5,14 +5,15 @@
 - `CANONICAL`: normative for implementation.
 - `SUPPORTING`: informs canonical documents but cannot override them.
 - `ASPIRATIONAL`: target or proposal requiring validation.
+- `HYPOTHESIS`: a deliberate question to validate through prototype/playtest.
 - `ARCHIVED`: historical material retained for traceability; do not implement from it.
 - `GENERATED`: output or prompt material requiring review before use.
 
-## Current status
-
-### Canonical
+## Canonical
 
 - `GDD.md`
+- `docs/DESIGN_AUTHORITY.md`
+- `docs/IMPLEMENTATION_DECISION_REGISTER.md`
 - `docs/GAMEPLAY_SYSTEMS.md`
 - `docs/RESISTANCE_NETWORK_SYSTEM.md`
 - `docs/CAMPAIGN_ARC_AND_TIMELINE.md`
@@ -22,11 +23,13 @@
 - `docs/CONTENT_SCOPE_MATRIX.md`
 - `docs/NARRATIVE_SYSTEM_TRACEABILITY.md`
 - `docs/VERTICAL_SLICE_OPERATIONAL_SPEC.md`
+- `docs/DESIGN_TRACEABILITY_MATRIX.md`
 - `docs/ACCESSIBILITY_REQUIREMENTS.md`
 - `docs/PLATFORM_MATRIX.md`
 - `docs/PERFORMANCE_AND_MEMORY_BUDGET.md`
+- `docs/MUST_FIX_BEFORE_IMPLEMENTATION.md`
 
-### Supporting
+## Supporting
 
 - `docs/CHARACTER_BIBLE.md`
 - `docs/STORY_BIBLE.md`
@@ -39,17 +42,15 @@
 - `docs/research/`
 - `docs/QA_AND_VALIDATION.md`
 
-### Aspirational
+## Hypotheses and targets
 
-- `docs/AWARD_CALIBER_QUALITY_BAR.md`
 - `docs/QUALITY_SCORECARD.md`
-- `docs/PRODUCTION_GATES.md`
-- `docs/KNOWN_LIMITATIONS.md`
+- `docs/AWARD_CALIBER_QUALITY_BAR.md`
 - `docs/DEVELOPMENT_ROADMAP.md`
+- `docs/KNOWN_LIMITATIONS.md`
+- Prototype hypotheses in `docs/IMPLEMENTATION_DECISION_REGISTER.md`.
 
-### Archived or legacy pending migration
+## Archived/generated
 
-- Any document whose title or filename contains `FINAL`, `PREMIUM`, `COMPLETE`, `100`, or `PHASE` is non-authoritative until explicitly promoted by a change record.
 - Prompt collections and generated drafts are non-authoritative.
-
-No file is deleted by this index; archiving preserves history and prevents accidental implementation from obsolete prose.
+- Files with `FINAL`, `PREMIUM`, `COMPLETE`, `100`, or `PHASE` in their names are non-authoritative unless promoted by `DESIGN_AUTHORITY.md` and a dated change record.

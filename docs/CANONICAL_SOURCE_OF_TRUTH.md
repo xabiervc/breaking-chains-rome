@@ -2,25 +2,19 @@
 
 ## Authority
 
-`docs/CANONICAL_SOURCE_OF_TRUTH.md` is the index for design authority. It does not replace the authoritative records listed below; it resolves which document wins when summaries overlap.
-
-1. Explicit current owner decisions and approved change records.
-2. Stable-ID canon under `docs/canon/` and `data/`.
-3. This index and the linked canonical specifications.
-4. Supporting research and review documents.
-5. Aspirational proposals, prompts, generated drafts, and legacy documents.
+`docs/DESIGN_AUTHORITY.md` is the normative governance document for implementation. This file lists the canonical design set; it does not permit filename recency to override it.
 
 ## Canonical specification set
 
-- Vision and scope: `GDD.md`, `docs/PROJECT_GENERATION_SPEC.md`.
+- Governance: `docs/DESIGN_AUTHORITY.md`, `docs/IMPLEMENTATION_DECISION_REGISTER.md`, `docs/DOCUMENT_STATUS_INDEX.md`.
+- Vision and scope: `GDD.md`, `docs/CONTENT_SCOPE_MATRIX.md`.
 - Gameplay: `docs/GAMEPLAY_SYSTEMS.md`, `docs/GAMEPLAY_PILLARS_AND_MASTERY.md`, `docs/RESISTANCE_NETWORK_SYSTEM.md`, `docs/PLAYER_AGENCY_AND_COSTS.md`.
-- Narrative: `docs/CAMPAIGN_ARC_AND_TIMELINE.md`, `docs/NARRATIVE_STATE_MACHINE.md`, `docs/CHARACTER_ARCS_RELATIONSHIPS_AND_CONFLICTS.md`, `docs/CANON_RULES.md`.
-- Content: `docs/CONTENT_SCOPE_MATRIX.md`, `docs/NARRATIVE_SYSTEM_TRACEABILITY.md`, `docs/VERTICAL_SLICE_OPERATIONAL_SPEC.md`.
-- Accessibility: `docs/ACCESSIBILITY_REQUIREMENTS.md`.
-- Technical: `docs/TECHNICAL_ARCHITECTURE.md`, `docs/TECHNICAL_QUALITY_GATE.md`, `docs/PLATFORM_MATRIX.md`, `docs/PERFORMANCE_AND_MEMORY_BUDGET.md`.
-- Research and sensitivity: `docs/research/README.md`, `docs/HISTORICAL_PLAY_POLICY.md`, `docs/HISTORICAL_SENSITIVITY.md`.
-- Readiness and gates: `docs/PREIMPLEMENTATION_EXIT_CRITERIA.md`, `docs/PRODUCTION_GATES.md`, `docs/preimplementation-readiness.md`.
+- Narrative: `docs/CAMPAIGN_ARC_AND_TIMELINE.md`, `docs/NARRATIVE_STATE_MACHINE.md`, `docs/CHARACTER_ARCS_RELATIONSHIPS_AND_CONFLICTS.md`, `docs/CANON_RULES.md`, `docs/NARRATIVE_SYSTEM_TRACEABILITY.md`.
+- Slice: `docs/VERTICAL_SLICE_OPERATIONAL_SPEC.md`, `docs/DESIGN_TRACEABILITY_MATRIX.md`.
+- Accessibility: `docs/ACCESSIBILITY_REQUIREMENTS.md`, `docs/ACCESSIBILITY_QUALITY_GATE.md`.
+- Technical: `docs/TECHNICAL_ARCHITECTURE.md`, `docs/TECHNICAL_QUALITY_GATE.md`, `docs/PLATFORM_MATRIX.md`, `docs/PERFORMANCE_AND_MEMORY_BUDGET.md`, `docs/SAVE_MIGRATION_AND_RECOVERY.md`.
+- Research and ethics: `docs/research/README.md`, `docs/HISTORICAL_PLAY_POLICY.md`, `docs/HISTORICAL_SENSITIVITY.md`.
 
 ## Conflict rule
 
-If two canonical documents conflict, implementation is blocked until a dated change record resolves the conflict. No “latest-looking” filename overrides authority.
+Implementation stops for an affected feature when canonical documents conflict. A dated change record must name the conflict, affected stable IDs, decision owner, migration impact, and regression test before implementation resumes.
