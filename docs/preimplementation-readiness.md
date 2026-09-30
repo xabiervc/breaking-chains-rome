@@ -1,37 +1,33 @@
 # Preimplementation Readiness
 
-## Status
+## Current verdict
 
-The documentation package is complete against the current critical-review checklist and is READY FOR EXECUTION AND EXTERNAL REVIEW.
+The repository now has a consolidated documentary design path and an operational vertical-slice contract. This addresses the critic’s final consistency recommendation.
 
-This is documentary 100% only. It is not a claim that runtime implementation, CI, compilation, target-hardware testing, external playtesting, or professional sign-offs are complete.
+## Canonical closure completed
 
-## Completed
+- Declared a canonical source-of-truth hierarchy.
+- Classified documents as CANONICAL, SUPPORTING, ASPIRATIONAL, ARCHIVED, or GENERATED.
+- Prevented legacy `FINAL`, `PREMIUM`, `COMPLETE`, `100`, and phase documents from silently overriding current design.
+- Added content scope with mandatory, production-foundation, aspirational, and out-of-scope tiers.
+- Added narrative-to-system traceability.
+- Added operational vertical-slice specification with exact scenario, duration, objectives, states, assets, audio, accessibility, metrics, and exit evidence.
+- Added consistency audit and archive policy.
 
-- Research Bible and source ledger.
-- FACT / RECONSTRUCTION / FICTION / OPEN QUESTION classifications.
-- Region and mission impact mapping.
-- GDD change recommendations.
-- Resistance-network system and player-cost model.
-- Social-class and non-protagonist agency framework.
-- Historical-sensitivity policy.
-- Award-caliber quality bar and scorecard.
-- Campaign onboarding, replay, duration, arc, timeline, narrative states, character relationships, canon rules, exposition budget.
-- Accessibility requirements with measurable targets and test matrix.
-- Platform, performance, memory, save/migration, privacy, localization, regression, load, and error plans.
-- Vertical-slice and production exit criteria.
+## Documentary status
 
-## Evidence still required
+100% of the current documentary closure checklist is present. This is not a claim of runtime implementation, CI success, Unreal compilation, target-hardware evidence, specialist sign-off, or external playtest completion.
 
-- Correct and verify the Conda environment workflow.
-- Green validators, lint, unit tests, and deterministic replay tests.
-- Runtime implementation of network variables and mission logic.
-- Minimal Unreal project and compiled C++ skeleton.
-- Data loading and deterministic route/fire/network smoke tests.
-- Target-hardware performance and save/load evidence.
-- Historian, archaeologist, linguist, sensitivity, accessibility, art, and audio sign-offs.
-- External playtests and closure of findings.
+## Implementation blockers
 
-## Definition of done
+- Correct and rerun the Conda workflow after the reported `environment.yml` failure.
+- Run validators, lint, unit tests, and deterministic replay tests.
+- Implement network variables, save fields, choice transitions, and slice mission logic.
+- Build the slice and compile the Unreal skeleton.
+- Capture target-platform performance and save/load measurements.
+- Complete historical, linguistic, sensitivity, accessibility, art, and audio reviews.
+- Conduct external playtests and close or accept findings.
 
-100% implementation readiness requires documentation, validation, build, runtime smoke tests, performance evidence, external playtest evidence, and required specialist sign-offs. Update this file with commit SHAs, workflow results, build results, test summaries, and reviewer sign-offs before claiming completion.
+## Gate rule
+
+Do not start full production until `docs/VERTICAL_SLICE_OPERATIONAL_SPEC.md` passes with attached evidence and the consistency audit has no unresolved blocker.
